@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Warsaw Guide With Children</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="attraction_playgrounds">Play\ngrounds</string>
+    <string name="attraction_restaurants">Food</string>
+    <string name="attraction_sightseeing">Sight seeing</string>
+    <string name="attraction_parks">Parks</string>
+
+    <string name="restaurants_title_nabo">NABO cafe</string>
+    <string name="restaurants_text_nabo">Menu zgodnie ze sztuką duńskiej kuchni jest sezonowe i oparte na naturalnych składnikach. Królują w niej ryby: łosoś, śledź i makrela. Podstawą wielu dań skandynawskich są także ziemniaki, bez których żaden mieszkaniec północy nie wyobraża sobie życia oraz konserwowane warzywa, takie jak kapusta czy ogórki, często marynowane na słodko. Najbardziej popularne w Danii są smorrebrod czyli „chleb posmarowany masłem” z bardzo ciekawymi dodatkami z marynowaną wieprzowiną, łososiem, duńskim bekonem, surową wołowiną, młodymi ziemniakami czy marynowaną na słodko kapustą, lub pasztetem z wątróbek. \nW menu oferujemy śniadania, lunche i obiady. Sałatki, zupy, makarony i dania główne. Zmiany w menu następują zgodnie z naturalnym dostępem surowców i warzyw w poszczególnych porach roku.</string>
+</resources>
