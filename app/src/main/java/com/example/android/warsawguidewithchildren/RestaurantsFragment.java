@@ -20,11 +20,8 @@ import java.util.ArrayList;
 public class RestaurantsFragment extends Fragment {
 
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.attraction_list, container, false);
 
+    void doNewList(View rootView){
 
         // Create an array of attractions
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
@@ -38,16 +35,25 @@ public class RestaurantsFragment extends Fragment {
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, R.color.attraction_restaurants);
         ListView listView = (ListView) rootView.findViewById(R.id.attraction_list_layout);
         listView.setAdapter(adapter);
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 getActivity().getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.fragment_restaurant_single, new RestaurantSingleFragment())
+                        .replace(R.id.container, new RestaurantSingleFragment())
+                        .addToBackStack(null)
                         .commit();
             }
         });
+    }
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.
+                attraction_list, container, false);
+        doNewList(rootView);
 
         return rootView;
     }
