@@ -18,19 +18,7 @@ public class MainFragment extends Fragment {
     TabLayout tabLayout;
     View rootView=null;
 
-    @Override
-    public void onResume() {
-        super.onResume();
 
-
-    }
-
-
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -40,7 +28,7 @@ public class MainFragment extends Fragment {
             viewPager = (ViewPager) rootView.findViewById(R.id.viewpager);
 
             // Create an adapter that knows which fragment should be shown on each page
-            adapter = new CategoryAdapter(getActivity(), getActivity().getSupportFragmentManager());
+            adapter = new CategoryAdapter(getActivity(), getChildFragmentManager());
 
             // Set the adapter onto the view pager
             viewPager.setAdapter(adapter);
