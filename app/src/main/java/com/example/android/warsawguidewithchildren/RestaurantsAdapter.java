@@ -1,12 +1,14 @@
 package com.example.android.warsawguidewithchildren;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -17,7 +19,7 @@ import java.util.List;
  * Created by egi-megi on 07.05.18.
  */
 
-public class AttractionAdapter  extends ArrayAdapter<Attraction> {
+public class RestaurantsAdapter extends ArrayAdapter<Attraction> {
 
     /**
      * Resource ID for the background color for this list of words
@@ -25,7 +27,7 @@ public class AttractionAdapter  extends ArrayAdapter<Attraction> {
     private int mColorResourceId;
 
 
-    public AttractionAdapter(@NonNull Context context, @NonNull List<Attraction> words, int colorResourceId) {
+    public RestaurantsAdapter(@NonNull Context context, @NonNull List<Attraction> words, int colorResourceId) {
         super(context, 0, words);
         mColorResourceId = colorResourceId;
     }
@@ -41,16 +43,16 @@ public class AttractionAdapter  extends ArrayAdapter<Attraction> {
         final Attraction currentAttraction = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID version_name
-        final TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
+        final TextView titleNameTextView = (TextView) listItemView.findViewById(R.id.title_name);
         // Get the version name from the current AndroidFlavor object and
         // set this text on the name TextView
-        miwokTextView.setText(currentAttraction.getTitle());
+        titleNameTextView.setText(currentAttraction.getTitle());
 
         // Find the TextView in the list_item.xml layout with the ID version_number
-        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
+        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.text_main);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
-        defaultTextView.setText(currentAttraction.getShortText());
+        descriptionTextView.setText(currentAttraction.getShortText());
 
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);

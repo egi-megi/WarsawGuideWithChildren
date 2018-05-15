@@ -1,33 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:id="@+id/fragment_restaurant_single">
+    android:background="@android:color/black">
 
-    <!--Photo by Kamil Gliwinski-->
-    <ImageView
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_restaurant_single"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@drawable/warsaw"
-        android:background="@android:color/holo_red_dark"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Photo by Kamil Gliwinski-->
+        <ImageView
+            android:id="@+id/restaurant_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/holo_red_dark"
+            android:src="@drawable/warsaw" />
 
         <TextView
+            android:id="@+id/restaurant_phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="lutti"
-            android:text="pupa"
             android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_text_attraction"
+            tools:text="one" />
+
+        <TextView
+            android:id="@+id/restaurant_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_text_attraction"
+            tools:text="address" />
+
+        <TextView
+            android:id="@+id/restaurant_wwwAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_text_attraction"
+            android:autoLink="web"
+            tools:text="wwwAddress" />
+
+        <TextView
+            android:id="@+id/restaurant_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_title_attraction"
             android:textStyle="bold"
-            android:textSize="@dimen/text_size_title_attraction"/>
+            tools:text="lutti" />
+
+        <fragment
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
         <TextView
+            android:id="@+id/restaurant_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="one"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/text_size_text_attraction"/>
+            android:textSize="@dimen/text_size_text_attraction"
+            tools:text="description" />
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
