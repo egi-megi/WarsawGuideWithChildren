@@ -14,15 +14,20 @@ public class Attraction implements Serializable {
     private String mPhoneNumber;
     private String mAddress;
     private String mwwwAddress;
+    private double mLatitude;
+    private double mLongitude;
 
 
-    public Attraction(String title, String shortText, int imageResourceId, String phoneNumber, String address, String wwwAddress) {
+    public Attraction(String title, String shortText, int imageResourceId, String phoneNumber, String address,
+                      String wwwAddress, double latitude, double  longitude) {
         mTitle = title;
         mShortText = shortText;
         mImageResourceId = imageResourceId;
         mPhoneNumber = phoneNumber;
         mAddress = address;
         mwwwAddress = wwwAddress;
+        mLatitude = latitude;
+        mLongitude = longitude;
     }
 
     public String getTitle() {
@@ -58,4 +63,13 @@ public class Attraction implements Serializable {
     public String getwwwAddress() {
         return mwwwAddress;
     }
+
+    public double getLatitude() {
+        return mLatitude;
+    }
+
+        public double getLongitude() {
+            return mLongitude;
+        }
+
 }

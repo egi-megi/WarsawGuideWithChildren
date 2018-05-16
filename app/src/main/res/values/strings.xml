@@ -14,42 +14,57 @@
     <string name="restaurants_phone_nabo">+48 22 842 02 56</string>
     <string name="restaurants_www_nabo">http://www.nabocafe.pl/</string>
     <string name="restaurants_address_nabo">Zakręt 8, 02(–, &#8211;)907 Warszawa</string>
+    <string name="restaurants_latitude_nabo">52.189676</string>
+    <string name="restaurants_longitude_nabo">21.068814</string>
 
     <string name="restaurants_title_akademia">Akademia</string>
     <string name="restaurants_text_akademia">Serwujemy tradycyjne dania kuchni polskiej, ozdabiając klasykę w nowoczesność. Tworzymy trend na rodzinne weekendy z kuchnią regionalną i mielonego łączymy z kieliszkiem świetnego czerwonego wina. Chwalimy się smakiem najlepszej jakości produktów i codziennych specjalności szefa kuchni – Justyny Ławrynowicz. Akademia to miejsce idealne na spotkania w rodzinnym gronie jak i romantyczne kolacje w intymnej atmosferze.</string>
     <string name="restaurants_phone_akademia">+48 22 828 99 11</string>
     <string name="restaurants_www_akademia">https://restauracjaakademia.pl/</string>
     <string name="restaurants_address_akademia">ul. Różana 2,  02(–, &#8211;)548 Warszawa</string>
+    <string name="restaurants_latitude_akademia">52.203653</string>
+    <string name="restaurants_longitude_akademia">21.022559</string>
 
     <string name="restaurants_title_derelefant">Der Elefant</string>
     <string name="restaurants_text_derelefant">Idealne miejsce na rodzinny obiad. Miejsce wyjątkowe, bo posiada wszystko czego szukam w restauracji przyjaznej dzieciom. Jedzenie jest pyszne – ryby i owoce morza smakują naprawdę wybornie, a pierogi ruskie zachwyciły Lilkę. Wieczorem z czarnego fortepianu wydobywa się cudowna muzyka. Klimat jest niepowtarzalny. W weekendy  odbywa się tu Szkoła gotowania dla najmłodszych. Z pewnością się na nią wybierzemy. Co jeszcze oferuje Der Elefant najmłodszym? Dziecięce menu, pokój zabaw dla dzieci, toaleta przystosowana do dzieci, wysokie krzesełka, przewijak w toalecie i bardzo wyrozumiałe podejście do małego klienta, który na koniec dostaje lizaka.</string>
     <string name="restaurants_phone_derelefant">+48 22 890 00 10</string>
     <string name="restaurants_www_derelefant">http://derelefant.com/</string>
     <string name="restaurants_address_derelefant">Plac Bankowy 1, 00(–, &#8211;)144 Warszawa</string>
+    <string name="restaurants_latitude_derelefant">52.241718</string>
+    <string name="restaurants_longitude_derelefant">21.003260</string>
 
     <string name="restaurants_title_mizusushi">Mizu Sushi</string>
     <string name="restaurants_text_mizusushi">Restauracja Mizu mieści się w loftowym wnętrzu Defabryki przy ul. Duchnickiej 3. Blisko Centrum, Żoliborza, Woli, ale jednocześnie w lokalizacji pozwalającej odpocząć od zgiełku miasta. Zależało nam na stworzeniu unikatowej restauracji serwującej dania kuchni japońskiej i będącej spójną koncepcją jakości premium. Pełnie smaku można osiągnąć tylko dzięki doborowi najwyższej jakości składników. Codzienne dostawy świeżych ryb i używanie japońskich produktów takich jak: Shichimi tōgarashi, grzyby shitake, grzyby enoki, sosy kabayaki, teriyaki, ponzu, japoński majonez to chluba naszej restauracji.Menu restauracji to połączenie japońskiej tradycji i fantazji zespołu kucharzy. Dopełnieniem dań gorących i sushi są wyjątkowe autorskie desery oraz karta win.</string>
     <string name="restaurants_phone_mizusushi">+48 882 982 702</string>
     <string name="restaurants_www_mizusushi">http://www.mizusushi.pl/pl/mizu-pl/</string>
     <string name="restaurants_address_mizusushi">ul. Duchnicka 3, 01-796 Warszawa</string>
+    <string name="restaurants_latitude_mizusushi">52.256792</string>
+    <string name="restaurants_longitude_mizusushi">20.970086</string>
 
     <string name="restaurants_title_boskapraga">Boska Praga</string>
     <string name="restaurants_text_boskapraga">W samym sercu prawobrzeżnej Warszawy czeka na Was Boska! Praga, miejsce łączące praską bezpretensjonalność z wielkomiejską energią. Tu nie tylko zjecie znakomite dania kuchni autorskiej, ale także poczujecie pozytywną atmosferę, odpoczniecie, nagadacie się z przyjaciółmi, dacie wyszaleć się dzieciom czy omówicie biznesowe sprawy.\nBoska! Praga, mieszcząca się w budynku dawnego młyna parowego przy ul. Okrzei 23, to miejsce o charakterze otwartym, gdzie dobrze poczują się zarówno młodzi (i najmłodsi), jak i starsi. Zabytkowe mury kryją industrialne i nowoczesne wnętrza, przełamane elementami o ciepłej tonacji, składające się na przytulne i przyjazne otoczenie. Niezobowiązująca atmosfera lokalu zapewnia wszystkim gościom poczucie swobody, ze szczególnym uwzględnieniem potrzeb dzieci, dla których przewidziano specjalne atrakcje oraz kącik zabaw.</string>
     <string name="restaurants_phone_boskapraga">+48 22 40 45 489</string>
     <string name="restaurants_www_boskapraga">http://boskapraga.pl/</string>
     <string name="restaurants_address_boskapraga">ul. Okrzei 23, 03-715 Warszawa</string>
+    <string name="restaurants_latitude_boskapraga">52.250509</string>
+    <string name="restaurants_longitude_boskapraga">21.033177</string>
 
     <string name="restaurants_title_benihana">Benihana</string>
     <string name="restaurants_text_benihana">W Benihanie oprócz imponującego ognia obejrzysz gotowanie na żywo połączone z kulinarnym show. Teppanyaki - to jedyne takie stoły w Warszawie, przy których kucharz gotuje na oczach gości, robiąc przy tym sztuczki i żartując. Siadający przy stole można wybrać dania tworzone z różnego rodzaju mięs, ryb, owoców morza, a także wegetariańskie kompozycje. Warszawska Benihana to nie tylko teppanyaki a również japońskie zupy, bento boxy, sushi oraz grillowane według tradycyjnych recetur robatayaki. </string>
     <string name="restaurants_phone_benihana">+48 22 370 26 20</string>
     <string name="restaurants_www_benihana">http://benihanapoland.com/new/</string>
     <string name="restaurants_address_benihana">ul. Twarda 4, 00-105 Warszawa</string>
+    <string name="restaurants_latitude_benihana">52.235428</string>
+    <string name="restaurants_longitude_benihana">21.001673</string>
 
     <string name="restaurants_title_lif">LIF</string>
     <string name="restaurants_text_lif">Znajdujemy się w samym sercu starego Mokotowa, wśród zieleni Ogródka Jordanowskiego. Zapraszamy na nasz taras z widokiem na park i plac zabaw, a chcącym uciec od miejskiego zgiełku proponujemy odpoczynek w sali na piętrze. Zapraszamy rodziny z dziećmi - mamy dla nich specjalne menu oraz uroczy kącik zabaw. </string>
     <string name="restaurants_phone_lif">+48 22 898 01 55</string>
     <string name="restaurants_www_lif">http://restauracja-lif.pl/</string>
     <string name="restaurants_address_lif">Al. Niepodległości 80, 02-626 Warszawa</string>
+    <string name="restaurants_latitude_lif">52.196325</string>
+    <string name="restaurants_longitude_lif">21.014275</string>
+
     <string name="title_activity_maps">Map</string>
 
 </resources>

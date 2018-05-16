@@ -13,11 +13,14 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+    public Attraction attraction;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+        String titleNameSingleRestaurant = getIntent().getStringExtra("titleNameSingleRestaurant");
+        attraction = ((AttractionsApplication) this.getApplication()).findSingleRestaurant(titleNameSingleRestaurant);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -38,9 +41,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+        // Add a marker in restaurant and move the camera
+        LatLng restaurantName = new LatLng(52.189676, 21.068814);
+ //       LatLng restaurantName = new LatLng(attraction.getLatitude(), attraction.getLongitude());
+        mMap.addMarker(new MarkerOptions().position(restaurantName).title(getString(R.string.restaurants_title_nabo)));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(restaurantName));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(restaurantName, 12 ) );
     }
 }

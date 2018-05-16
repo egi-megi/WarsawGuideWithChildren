@@ -43,10 +43,10 @@ public class RestaurantSingleFragment extends Fragment {
             descriptionTextView.setText(attraction.getShortText());
 
             // Find the ImageView in the single_song_item.xml layout with the ID version_number
-            ImageView bandSingerImageView = (ImageView) rootView.findViewById(R.id.restaurant_image);
+            ImageView restaurantImageView = (ImageView) rootView.findViewById(R.id.restaurant_image);
             // Get the version number from the current AndroidFlavor object and
             // set this image on the number ImageView
-            bandSingerImageView.setImageResource(attraction.getImageResourceId());
+            restaurantImageView.setImageResource(attraction.getImageResourceId());
 
             // Find the TextView in the single_song_item.xml layout with the ID version_number
             TextView phoneTextView = (TextView) rootView.findViewById(R.id.restaurant_phone);
@@ -72,6 +72,19 @@ public class RestaurantSingleFragment extends Fragment {
             // Get the version number from the current Song object and
             // set this text on the number TextView
             wwwAddressTextView.setText(attraction.getwwwAddress());
+
+            // Find the ImageView in the single_song_item.xml layout with the ID version_number
+            ImageView mapImageView = (ImageView) rootView.findViewById(R.id.map_image_view);
+            // Get the version number from the current AndroidFlavor object and
+            // set this image on the number ImageView
+            mapImageView.setImageResource(attraction.getImageResourceId());
+            mapImageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent mapIntent = new Intent(getActivity().getApplication(), MapsActivity.class);
+                    startActivity(mapIntent);
+                }
+            });
         }
         return rootView;
 
