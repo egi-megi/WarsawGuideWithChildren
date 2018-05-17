@@ -4,12 +4,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="attraction_playgrounds">Play\ngrounds</string>
-    <string name="attraction_restaurants">Food</string>
-    <string name="attraction_sightseeing">Sight seeing</string>
-    <string name="attraction_parks">Parks</string>
+    <string name="attraction_playgrounds">Place zabaw</string>
+    <string name="attraction_restaurants">Jedzenie</string>
+    <string name="attraction_sightseeing">Zwiedzanie</string>
+    <string name="attraction_parks">Parki</string>
 
-    <string name="restaurants_title_nabo">NABO Cafe</string>
+    <string name="restaurants_name_nabo">NABO Cafe</string>
     <string name="restaurants_text_nabo">Menu zgodnie ze sztuką duńskiej kuchni jest sezonowe i oparte na naturalnych składnikach. Królują w niej ryby: łosoś, śledź i makrela. Podstawą wielu dań skandynawskich są także ziemniaki, bez których żaden mieszkaniec północy nie wyobraża sobie życia oraz konserwowane warzywa, takie jak kapusta czy ogórki, często marynowane na słodko. Najbardziej popularne w Danii są smorrebrod czyli „chleb posmarowany masłem” z bardzo ciekawymi dodatkami z marynowaną wieprzowiną, łososiem, duńskim bekonem, surową wołowiną, młodymi ziemniakami czy marynowaną na słodko kapustą, lub pasztetem z wątróbek. \nW menu oferujemy śniadania, lunche i obiady. Sałatki, zupy, makarony i dania główne. Zmiany w menu następują zgodnie z naturalnym dostępem surowców i warzyw w poszczególnych porach roku.</string>
     <string name="restaurants_phone_nabo">+48 22 842 02 56</string>
     <string name="restaurants_www_nabo">http://www.nabocafe.pl/</string>
@@ -17,7 +17,7 @@
     <string name="restaurants_latitude_nabo">52.189676</string>
     <string name="restaurants_longitude_nabo">21.068814</string>
 
-    <string name="restaurants_title_akademia">Akademia</string>
+    <string name="restaurants_name_akademia">Akademia</string>
     <string name="restaurants_text_akademia">Serwujemy tradycyjne dania kuchni polskiej, ozdabiając klasykę w nowoczesność. Tworzymy trend na rodzinne weekendy z kuchnią regionalną i mielonego łączymy z kieliszkiem świetnego czerwonego wina. Chwalimy się smakiem najlepszej jakości produktów i codziennych specjalności szefa kuchni – Justyny Ławrynowicz. Akademia to miejsce idealne na spotkania w rodzinnym gronie jak i romantyczne kolacje w intymnej atmosferze.</string>
     <string name="restaurants_phone_akademia">+48 22 828 99 11</string>
     <string name="restaurants_www_akademia">https://restauracjaakademia.pl/</string>
@@ -25,7 +25,7 @@
     <string name="restaurants_latitude_akademia">52.203653</string>
     <string name="restaurants_longitude_akademia">21.022559</string>
 
-    <string name="restaurants_title_derelefant">Der Elefant</string>
+    <string name="restaurants_name_derelefant">Der Elefant</string>
     <string name="restaurants_text_derelefant">Idealne miejsce na rodzinny obiad. Miejsce wyjątkowe, bo posiada wszystko czego szukam w restauracji przyjaznej dzieciom. Jedzenie jest pyszne – ryby i owoce morza smakują naprawdę wybornie, a pierogi ruskie zachwyciły Lilkę. Wieczorem z czarnego fortepianu wydobywa się cudowna muzyka. Klimat jest niepowtarzalny. W weekendy  odbywa się tu Szkoła gotowania dla najmłodszych. Z pewnością się na nią wybierzemy. Co jeszcze oferuje Der Elefant najmłodszym? Dziecięce menu, pokój zabaw dla dzieci, toaleta przystosowana do dzieci, wysokie krzesełka, przewijak w toalecie i bardzo wyrozumiałe podejście do małego klienta, który na koniec dostaje lizaka.</string>
     <string name="restaurants_phone_derelefant">+48 22 890 00 10</string>
     <string name="restaurants_www_derelefant">http://derelefant.com/</string>
@@ -33,7 +33,7 @@
     <string name="restaurants_latitude_derelefant">52.241718</string>
     <string name="restaurants_longitude_derelefant">21.003260</string>
 
-    <string name="restaurants_title_mizusushi">Mizu Sushi</string>
+    <string name="restaurants_name_mizusushi">Mizu Sushi</string>
     <string name="restaurants_text_mizusushi">Restauracja Mizu mieści się w loftowym wnętrzu Defabryki przy ul. Duchnickiej 3. Blisko Centrum, Żoliborza, Woli, ale jednocześnie w lokalizacji pozwalającej odpocząć od zgiełku miasta. Zależało nam na stworzeniu unikatowej restauracji serwującej dania kuchni japońskiej i będącej spójną koncepcją jakości premium. Pełnie smaku można osiągnąć tylko dzięki doborowi najwyższej jakości składników. Codzienne dostawy świeżych ryb i używanie japońskich produktów takich jak: Shichimi tōgarashi, grzyby shitake, grzyby enoki, sosy kabayaki, teriyaki, ponzu, japoński majonez to chluba naszej restauracji.Menu restauracji to połączenie japońskiej tradycji i fantazji zespołu kucharzy. Dopełnieniem dań gorących i sushi są wyjątkowe autorskie desery oraz karta win.</string>
     <string name="restaurants_phone_mizusushi">+48 882 982 702</string>
     <string name="restaurants_www_mizusushi">http://www.mizusushi.pl/pl/mizu-pl/</string>
@@ -41,7 +41,7 @@
     <string name="restaurants_latitude_mizusushi">52.256792</string>
     <string name="restaurants_longitude_mizusushi">20.970086</string>
 
-    <string name="restaurants_title_boskapraga">Boska Praga</string>
+    <string name="restaurants_name_boskapraga">Boska Praga</string>
     <string name="restaurants_text_boskapraga">W samym sercu prawobrzeżnej Warszawy czeka na Was Boska! Praga, miejsce łączące praską bezpretensjonalność z wielkomiejską energią. Tu nie tylko zjecie znakomite dania kuchni autorskiej, ale także poczujecie pozytywną atmosferę, odpoczniecie, nagadacie się z przyjaciółmi, dacie wyszaleć się dzieciom czy omówicie biznesowe sprawy.\nBoska! Praga, mieszcząca się w budynku dawnego młyna parowego przy ul. Okrzei 23, to miejsce o charakterze otwartym, gdzie dobrze poczują się zarówno młodzi (i najmłodsi), jak i starsi. Zabytkowe mury kryją industrialne i nowoczesne wnętrza, przełamane elementami o ciepłej tonacji, składające się na przytulne i przyjazne otoczenie. Niezobowiązująca atmosfera lokalu zapewnia wszystkim gościom poczucie swobody, ze szczególnym uwzględnieniem potrzeb dzieci, dla których przewidziano specjalne atrakcje oraz kącik zabaw.</string>
     <string name="restaurants_phone_boskapraga">+48 22 40 45 489</string>
     <string name="restaurants_www_boskapraga">http://boskapraga.pl/</string>
@@ -49,7 +49,7 @@
     <string name="restaurants_latitude_boskapraga">52.250509</string>
     <string name="restaurants_longitude_boskapraga">21.033177</string>
 
-    <string name="restaurants_title_benihana">Benihana</string>
+    <string name="restaurants_name_benihana">Benihana</string>
     <string name="restaurants_text_benihana">W Benihanie oprócz imponującego ognia obejrzysz gotowanie na żywo połączone z kulinarnym show. Teppanyaki - to jedyne takie stoły w Warszawie, przy których kucharz gotuje na oczach gości, robiąc przy tym sztuczki i żartując. Siadający przy stole można wybrać dania tworzone z różnego rodzaju mięs, ryb, owoców morza, a także wegetariańskie kompozycje. Warszawska Benihana to nie tylko teppanyaki a również japońskie zupy, bento boxy, sushi oraz grillowane według tradycyjnych recetur robatayaki. </string>
     <string name="restaurants_phone_benihana">+48 22 370 26 20</string>
     <string name="restaurants_www_benihana">http://benihanapoland.com/new/</string>
@@ -57,13 +57,97 @@
     <string name="restaurants_latitude_benihana">52.235428</string>
     <string name="restaurants_longitude_benihana">21.001673</string>
 
-    <string name="restaurants_title_lif">LIF</string>
+    <string name="restaurants_name_lif">LIF</string>
     <string name="restaurants_text_lif">Znajdujemy się w samym sercu starego Mokotowa, wśród zieleni Ogródka Jordanowskiego. Zapraszamy na nasz taras z widokiem na park i plac zabaw, a chcącym uciec od miejskiego zgiełku proponujemy odpoczynek w sali na piętrze. Zapraszamy rodziny z dziećmi - mamy dla nich specjalne menu oraz uroczy kącik zabaw. </string>
     <string name="restaurants_phone_lif">+48 22 898 01 55</string>
     <string name="restaurants_www_lif">http://restauracja-lif.pl/</string>
     <string name="restaurants_address_lif">Al. Niepodległości 80, 02-626 Warszawa</string>
     <string name="restaurants_latitude_lif">52.196325</string>
     <string name="restaurants_longitude_lif">21.014275</string>
+
+    <string name="restaurants_name_kofifi">Kofifi – kawiarnia dla małych i dużych</string>
+    <string name="restaurants_text_kofifi">W KOFIFI jest miejsce i dla rodziców i dla dzieci. Chcemy pokazać jak  światy maluchów i dorosłych mogą mieć ze sobą wiele wspólnego i mogą się wzajemnie przenikać. Kofifi to prawie 120 metrów przestrzeni pełnej tajemniczych zakamarków, które kochają nasi najmłodsi goście.\nU nas rodzice napiją się wybornej kawy i spokojnie porozmawiają, podczas gdy dzieci załatwią swoje małe, ważne sprawy w bajkowym domku (tylko dla nich!) albo w kąciku zabaw na tajemniczej antresoli!\nAtrakcji jest tak wiele, że trudno je wszystkie wyliczyć: tablica do rysowania, zjeżdżalnia, kosze z zabawkami, bum-bum blaster mózgowy, półki pełne książek… Dla najmłodszych mamy interaktywny kojec, a na trochę starszych czeka kolorowa huśtawka. </string>
+    <string name="restaurants_phone_kofifi">+48 22 839 75 60</string>
+    <string name="restaurants_www_kofifi">http://kofifi.waw.pl/</string>
+    <string name="restaurants_address_kofifi">ul. Mierosławskiego 19, 01-549 Warszawa</string>
+    <string name="restaurants_latitude_kofifi">52.266422</string>
+    <string name="restaurants_longitude_kofifi">20.989234</string>
+
+
+    <string name="playgrounds_name_telekiego">Plac zabaw na Telekiego</string>
+    <string name="playgrounds_text_telekiego">Plac dla dzieci młodszych (2-5 lat): Piaskownica + dwa stoliki do zabawy piaskiem; Bujak sprężynowy szt. 4; Krokodyl; Panel sterowniczy; Mała przeplotnia linowa; Huśtawka; Domek ze zjeżdżalnią; Podest obrotowy z uchwytem; Zestaw wspinaczkowy; Zestaw sprawnościowy.\nPlac dla dzieci starszych (6-13 lat): Huśtawka wahadłowa; Huśtawka wagowa na sprężynach; Podest obrotowy; Siedzisko obrotowe; Bujak sprężynowy szt. 2; Statek obrotowy; Duży zestaw zabawowy. </string>
+    <string name="playgrounds_www_telekiego">http://www.sport.ursynow.pl/content/plac-zabaw-telekiego</string>
+    <string name="playgrounds_address_telekiego">ul. Pala Telekiego, Warszawa</string>
+
+    <string name="playgrounds_name_przybazantarnii">Plac zabaw przy Bażantarni</string>
+    <string name="playgrounds_text_przybazantarnii">Plac dla dzieci młodszych (2-5 lat): Lokomotywa; Huśtawka wagowa; Bujak sprężynowy podwójny; Bujak sprężynowy szt. 4; „Misa” z piaskiem; Huśtawka wahadłowa podwójna szt. 2; Karuzela tarczowa; Domek ze zjeżdżalnią; Zespół drewnianych urządzeń na piasku; Duży zestaw drewniany.\nPlac dla dzieci starszych (6-13 lat): Huśtawka wahadłowa podwójna; „Kołowrotek; Wirująca kula z uchwytem; Karuzela tarczowa; Wirujący podest; Bujak sprężynowy trzyosobowy; Zestaw kulowy; Siedzisko obrotowe; Zjeżdżalnia wolnostojąca otwarta; Zestaw sprawnościowy; Wieża ze zjeżdżalnią rurową. </string>
+    <string name="playgrounds_www_przybazantarnii">http://www.sport.ursynow.pl/content/plac-zabaw-park-przy-bazantarni</string>
+    <string name="playgrounds_address_przybazantarnii">ul. Przy Bażantarni, Warszawa</string>
+
+    <string name="playgrounds_name_placwillsona">Plac zabaw przy Placu Willsona </string>
+    <string name="playgrounds_text_placwillsona">Bardzo duży, nowoczesny plac zabaw znajdujący się w pięknym i niezwykle zadbanym Parku Żeromskiego przy Placu Wilsona. Znajdują się tu atrakcje zarówno dla maluszków (piaskownica, domek ze zjeżdżalnią, bujaczki, huśtawki przeznaczone specjalnie dla małych dzieci) jak i dla starszych dzieci. Pajęczyna do wspinania, różnego rodzaju zjeżdżalnie, równoważnie, kręciołki to tylko jedne z wielu atrakcji jakie tu znajdziemy.</string>
+    <string name="playgrounds_www_placwillsona">http://www.sunnycompany.com/pl/nasze-atrakcje/item/plac-zabaw-na-placu-wilsona</string>
+    <string name="playgrounds_address_placwillsona">Park Żeromskiego na Placu Wilsona, Warszawa</string>
+
+    <string name="playgrounds_name_barcelonska">Plac zabaw na Barcelońskiej </string>
+    <string name="playgrounds_text_barcelonska">Cały teren jest bardzo duży, w całości ogrodzony i podzielony na różne strefy. Po jednej stronie znajduje się sekcja dla aktywnych ze sporym boiskiem do gry w koszykówkę, obok jest kort tenisowy i stoły do tenisa stołowego. Boiska są profesjonalnie przygotowane, odgrodzone od strefy zabaw dla dzieci wysoko zamontowaną siatką, która sprawia, że piłka nie przeleci na plac, gdzie bawią się maluchy. Wszystko to oczywiście jest bezpłatne!\nDrugą stronę zajmują przeróżne urządzenia do zabawy. Są tu mini ścianki wspinaczkowe, huśtawki, gigantyczne konstrukcje ze sznurków do wspinania, połączonych ze sobą w jedną całość, co sprawia że mamy do czynienia z jednym wielkim torem przeszkód. Jest to zdecydowania atrakcja dla starszych dzieci. Dla nieco młodszych przygotowano bodajże jeden z najdłuższych torów przeszkód w postaci domków, rur do przechodzenia, lin do wspinania przypominających te, które znajdują się w parkach linowych, pochylnie oraz zjeżdżalnie.\nSą tu także urządzenia sprawnościowe takie jak równoważnia, drabinka po której można przejść wisząc na rękach czy trampolina.\nCiekawym pomysłem, jest umieszczenie na placu huśtawki dla osób niepełosprawnych ruchowo, poruszających się na wózkach.</string>
+    <string name="playgrounds_www_barcelonska">http://www.sunnycompany.com/pl/nasze-atrakcje/item/plac-zabaw-na-barcelonskiej</string>
+    <string name="playgrounds_address_barcelonska">ul. Barcelońska, Warszawa</string>
+
+    <string name="playgrounds_name_wilanow">Plac zabaw na Plaży Wilanów </string>
+    <string name="playgrounds_text_wilanow">Na Wilanowskiej plaży u zbiegu ulic Wilanowskiej i Przyczółkowej mieści się wspaniały plac zabaw. Jego główną atrakcją jest ogromny statek piracki. Kto by nie chciał chociaż na chwilę zostać kapitanem tej czarnej bandery? Kolejna niesamowitą atrakcją jest niezwykła latarnia morska z dłuuuugą zjeżdżalnią. Na placu znajdziecie również duży zestaw zabawowy, 5-cio osobową huśtawkę XXL, wysokie linarium do wspinaczki oraz karuzelę. Dopełnieniem atrakcji dla dzieci są bujaki i piaskownica. Taka różnorodność atrakcji sprawia, że każdy znajdzie tu coś dla siebie. Młodsze i starsze dzieci będą bawić się świetnie. Wyposażenie wykonano głównie z drewna i usytuowano na piasku. Całość dla bezpieczeństwa została ogrodzona. Przy placu zabaw znajdują się ławeczki dla dorosłych, a tuż za ogrodzeniem zainstalowano siłownię plenerową do aktywnego wypoczynku. \nNiedaleko tego placu zabaw znajduje się też mini park trampolin. Na czterech, wbudowanych w ziemię trampolinach, można do woli skakać i wykonywać bardziej skomplikowane ewolucje akrobatyczne – jeśli ktoś potrafi i ma odwagę. Ja i mój syn bawiliśmy się wyśmienicie.</string>
+    <string name="playgrounds_www_wilanow">http://dzieciakinatrzepaki.pl/plac-zabaw-w-wilanowie-plaza-wilanow/</string>
+    <string name="playgrounds_address_wilanow">róg ul. Wilanowskiej i ul. Przyczółkowej, Warszawa</string>
+
+    <string name="playgrounds_name_zacisze">Plac zabaw na Zaciszu </string>
+    <string name="playgrounds_text_zacisze">Plac zabaw przy ulicy Uroczysko jest trochę nietypowy, bo bez rozgrzanej stali, plastiku, bez pstrokacizny i tartanu. To kolejne dziecko moich ulubionych górali z Kościeliska, firmy Braty i Kompany. Moim zdaniem tworzą najlepsze place zabaw! Zbudowany z typowym dla nich rozmachem. Jest tu wysoka górka z konkretną zjeżdżalnią, duże, trawiaste boisko i ulubione przez dzieci trampoliny. Pojawiły się znane z poprzednich realizacji drewniane zwierzęta i bujawki sprężynowe w kształcie wesołych owadów. Całość ozdabiają drzewa i krzewy wkomponowane w projekt, które dają tak potrzebny i rzadki na placach zabaw cień. Zamiast tartanu poczciwy żółty piach. Są tu mostki, tunele podziemne i schodki tworzące ścieżki, które w założeniu miały przypominać urozmaicona rzeźbę terenu, jaka występuje w krajobrazie naturalnym. Pojawily się tu także konstrukcje z łukowatych, wygiętych ku górze elementów, ustawionych na planie koła, kojarzące się z domkami, szałasami, bazami. Nie zabrakło wspinadeł dla starszaków i bezpiecznych huśtawek dla maluchów. Dzieci jest tu mnóstwo i świetnie się bawią. Widać, że plac zabaw bardzo im się spodobał i był w tej lokalizacji potrzebny.</string>
+    <string name="playgrounds_www_zacisze">http://zywyinwentarz.pl/index.php/2017/07/15/1506/</string>
+    <string name="playgrounds_address_zacisze">ul. Uroczysko, Warszawa</string>
+
+    <string name="playgrounds_name_polemokotowskie">Plac zabaw na Polach Mokotowskich </string>
+    <string name="playgrounds_text_polemokotowskie">Pole Mokotowskie powstało na terenie dawnego Lotniska Mokotowskiego. Znajdowały się tu warsztaty lotnicze Warszawskiego Towarzystwa Lotniczego Aviata, szkoła pilotów, a w czasie okupacji w 1915 roku hangar dla zeppelinów. \nWspółczesny park doskonale sprawdza się jako miejsce do uprawiania sportu. Znajdują się tu dwie siłownie plenerowe. Każda wyposażona jest w komplet urządzeń do ćwiczeń różnych partii ciała: nóg, brzucha, ramion i rąk. Przez całą długość parku, od ul. Waryńskiego do ul. Żwirki i Wigury, ciągnie się ścieżka rowerowa. W parku znajduje się infrastruktura sprzyjająca różnym aktywnościom: rampy dla rolkarzy oraz deskorolkarzy, stoły do ping-ponga, obręcze do gry w koszykówkę czy urządzone w ramach budżetu partycypacyjnego 2015 boiska do siatkówki plażowej. Dla najmłodszych są dwa place zabaw z huśtawkami, zjeżdżalniami, karuzelami, a w części śródmiejskiej ze ścianką wspinaczkową.\nJednak Pole Mokotowskie to także miejsce, gdzie można zrelaksować się i odpocząć od zgiełku Warszawy, przysiąść na chwilę z książką na jednej z gęsto rozstawionych ławek albo rozłożyć się z kocem na trawie czy urządzić piknik.</string>
+    <string name="playgrounds_www_polemokotowskie">http://www.zom.waw.pl/parki/pole-mokotowskie</string>
+    <string name="playgrounds_address_polemokotowskie">al. Niepodległości, Warszawa</string>
+
+    <string name="playgrounds_name_bielany">Park Trampolin Novum Warszawa Bielany </string>
+    <string name="playgrounds_text_bielany">To niesamowite miejsce jest efektem niezwykle ciekawego projektu pod nazwą „Budowa placu zabaw na terenie Akademii Wychowania Fizycznego w Warszawie” przy ul. Marymonckiej 34 na Bielanach. Na tym wyjątkowym obiekcie znalazły się między innymi 10-metrowa serpentyna, trampoliny, huśtawka Żuraw i Superlina. Taki zestaw to zupełna rzadkość! Jest to miejsce, które zaskoczy nawet największych znawców placów zabaw. Dopełnieniem atrakcji dla dzieci są: lornetki i tuby do rozmawiania. Wszystko to usytuowano w pięknej i spokojnej okolicy. Wszędzie dookoła oczy nacieszyć można zielenią. Warto wybrać się tu z dziećmi, by podarować im chwile beztroskiej zabawy, na pewno będą to jeszcze długo wspominać.  </string>
+    <string name="playgrounds_www_bielany">http://www.atrakcjedzieciece.pl/dashboard/attractions/park-trampolinowy-novum-warszawa-bielany</string>
+    <string name="playgrounds_address_bielany">ul. Marymonckiej 34, Warszawa</string>
+
+    <string name="playgrounds_name_parkbrodnowski">Plac zabaw w Parku Bródnowskim </string>
+    <string name="playgrounds_text_parkbrodnowski">Cały teren jest bardzo duży, w całości ogrodzony i podzielony na różne strefy. Po jednej stronie znajduje się sekcja dla aktywnych ze sporym boiskiem do gry w koszykówkę, obok jest kort tenisowy i stoły do tenisa stołowego. Boiska są profesjonalnie przygotowane, odgrodzone od strefy zabaw dla dzieci wysoko zamontowaną siatką, która sprawia, że piłka nie przeleci na plac, gdzie bawią się maluchy. Wszystko to oczywiście jest bezpłatne!\nDrugą stronę zajmują przeróżne urządzenia do zabawy. Są tu mini ścianki wspinaczkowe, huśtawki, gigantyczne konstrukcje ze sznurków do wspinania, połączonych ze sobą w jedną całość, co sprawia że mamy do czynienia z jednym wielkim torem przeszkód. Jest to zdecydowania atrakcja dla starszych dzieci. Dla nieco młodszych przygotowano bodajże jeden z najdłuższych torów przeszkód w postaci domków, rur do przechodzenia, lin do wspinania przypominających te, które znajdują się w parkach linowych, pochylnie oraz zjeżdżalnie.\nSą tu także urządzenia sprawnościowe takie jak równoważnia, drabinka po której można przejść wisząc na rękach czy trampolina.\nCiekawym pomysłem, jest umieszczenie na placu huśtawki dla osób niepełosprawnych ruchowo, poruszających się na wózkach.</string>
+    <string name="playgrounds_www_parkbrodnowski">http://www.kompaniazabaw.pl/realizacje/park-brodnowski-warszawa-c4.html</string>
+    <string name="playgrounds_address_parkbrodnowski">Park Bródnowski, Warszawa</string>
+
+    <string name="playgrounds_name_blonie">Park "BAJKA" </string>
+    <string name="playgrounds_text_blonie">Co prawda nie w Warszawie, ale w Błoniu 30 km od stolicy jest NAJLEPSZY plac zabaw w całym województwie. W podwarszawskich Błoniu (zjazd z autostrady WAW_PZN) jest plac zabaw z prawdziwego zdarzenia. Nazywa się “Park Bajka”. Niedaleko kina na ul. Jana Pawła II znajduje się park o powierzchni ponad 20000 metrów kwadratowych. A w nim wspaniale zaprojektowany plac zabaw spełniający najwyższe standardy. Ogrodzony teren zachęca do spacerów i jeżdżenia na rowerach. Teren jest wykorzystany w 100%. Dużo  atrakcji wykonanych z naturalnych materiałów. Na każdym kroku czekają na nas tunele. Są także: wiklinowe atrakcje: tunele i domki, muzyczny plac zabaw, krzywe zwierciadła, tyrolki i największe wodne atrakcje! Koniecznie weźcie stroje, ręczniki i crocsy. </string>
+    <string name="playgrounds_www_blonie">http://www.nebule.pl/jestesmy-w-bajce/</string>
+    <string name="playgrounds_address_blonie"> Kardynała Stefana Wyszyńskiego 10, Błonie pod Warszawą</string>
+
+    <string name="parks_name_skaryszewski">Park Skaryszewski im. Ignacego Jana Paderewskiego </string>
+    <string name="parks_text_skaryszewski">Park Skaryszewski im. Ignacego Jana Paderewskiego – zabytkowy park krajobrazowy w Warszawie, wpisany do rejestru zabytków z dn. 13 grudnia 1973 pod numerem 875. Park o powierzchni 58 ha założony został na terenach skaryszewskiego pastwiska miejskiego (miejsce to wcześniej było określane jako Saska Kępa) w latach 1905–1922 przez Franciszka Szaniora. W 2009 Park uzyskał tytuł Najpiękniejszego Parku w Polsce oraz trzecią lokatę w konkursie Najpiękniejszego Parku w Europie. </string>
+    <string name="parks_www_skaryszewski">https://pl.wikipedia.org/wiki/Park_Skaryszewski_im._Ignacego_Jana_Paderewskiego_w_Warszawie</string>
+    <string name="parks_address_skaryszewski">Praga-Południe w Warszawie</string>
+
+    <string name="parks_name_lasbrodnowski">Las Bródnowski </string>
+    <string name="parks_text_lasbrodnowski">Zajmuje obszar wyciętej w połowie XIX wieku Puszczy Bródnowskiej, wykarczowanej pod łąki dla wsi Bródno Stare. Można w nim zaobserwować: sarny, dziki, kuny, lisy, wiewiórki, zające, sójki, dzięcioły, jastrzębie, myszołowy. Ma powierzchnię 134,08 ha.\nLas, będący terenem rekreacyjnym mieszkańców Bródna i Zacisza, został wyposażony w takie elementy małej architektury jak: ławki, stoliki i śmietniki. W północno-wschodniej części Lasu znajdują się ślady rosyjskiego Fortu Lewicpol, a także polana dawnego folwarku Lewicpol (Górnik), obecnie mała jednostka wojskowa. Przez teren Lasu prowadzi ścieżka dydaktyczna „Nauka poszła w las” z planszami o tematyce przyrodniczej, historycznej, archeologicznej i geograficznej.\nW Lesie, nieopodal polany, na której znajduje się plac zabaw i tereny rekreacyjne, ulokowane są pozostałości grodziska będącego najstarszą osadą na obszarze współczesnej Warszawy – zachowały się tam wyeksponowane relikty wczesnośredniowiecznego grodziska. Osadę i mały gród bez fosy wzniesiono na wydmie otoczonej z trzech stron bagnami, które obecnie nie istnieją.</string>
+    <string name="parks_www_lasbrodnowski">https://pl.wikipedia.org/wiki/Las_Br%C3%B3dnowski</string>
+    <string name="parks_address_lasbrodnowski"> Targówek w Warszawie</string>
+
+    <string name="parks_name_parkbrodnowski">Park Bródnowski</string>
+    <string name="parks_text_parkbrodnowski">Park był budowany przez dwa lata, począwszy od 1976 roku, według projektu inż. Stefanii Traczyńskiej. Miał to być obiekt wypoczynkowy, zaspokajający potrzeby mieszkańców tej części stolicy. Od 1997 roku trwają nieustanne prace modernizacyjne. Powstały place zabaw wydzielone dla dzieci, boiska do koszykówki i siatkówki oraz ścieżki rowerowe.\nTrzy akweny zajmują 0,7 ha powierzchni parku. Na największym z nich znajdują się trzy fontanny, które w 2017 zastąpiły znajdującą się w tym miejscu fontannę pojedynczą .\nW parku tym przez OSiR zostały wybudowane boiska do koszykówki, dwa do siatkówki, piłki nożnej a także stoły ping-pongowe. Można też pograć w szachy. Ten mini-ośrodek ogrodzony jest siatką z wejściem przez zamykaną bramę. Każdy może korzystać z boisk. Sprzęt sportowy można wziąć swój, bądź wypożyczyć za okazaniem dokumentu tożsamości. </string>
+    <string name="parks_www_parkbrodnowski">https://pl.wikipedia.org/wiki/Park_Br%C3%B3dnowski_w_Warszawie</string>
+    <string name="parks_address_parkbrodnowski"> Bródno-Targówek w Warszawie</string>
+
+    <string name="parks_name_kampinos">Kampinoski Park Narodowy</string>
+    <string name="parks_text_kampinos">Kampinoski Park Narodowy został utworzony 16 I 1959 roku dzięki staraniom Jadwigi i Romana Kobendzów. Położony jest na Nizinie Środkowomazowieckiej, między lewym brzegiem Wisły a Bzurą, tuż przy północno-zachodnich rogatkach Warszawy. Powierzchnia parku wynosi 38 544,33 ha, z czego 72,40 ha przypada na Ośrodek Hodowli Żubrów w Smardzewicach w woj. łódzkim. Wokół parku rozciąga się strefa ochronna o areale 37 756 ha. \nW granicach parku znajdują się rozległe obszary Puszczy Kampinoskiej, położone w pradolinie Wisły. Puszcza tworzy wyraźnie wyodrębniony układ przyrodniczy, usytuowany w punkcie węzłowym korytarzy ekologicznych (doliny Wisły, Bugu i Narwi) o znaczeniu europejskim. Teren ten został ukształtowany w okresie polodowcowym przez wody z topniejącego lodowca spływające do morza szerokim na 18 km korytem Prawisły. Wyspy i ławice dały początek wydmom, a w dawnych korytach i starorzeczach  wytworzyły się tereny bagienne. Tak powstały dwa ułożone równoleżnikowo pasy wydmowe oraz leżące pomiędzy nimi dwa pasy bagienne. Dodatkowo wśród kompleksów wydm znajdują się podmokłe zagłębienia, a na terenach bagiennych piaszczyste wzniesienia oraz niewielkie wydmy. \nDuże zróżnicowanie siedlisk powoduje, że występuje tutaj ponad 50 zbiorowisk roślinnych. Tworzy je ok. 1400 gatunków roślin naczyniowych, 115 gatunków mszaków oraz 146 gatunków porostów.  </string>
+    <string name="parks_www_kampinos">https://www.kampinoski-pn.gov.pl/</string>
+    <string name="parks_address_kampinos"> Północny-zachód od Warszawy</string>
+
+    <string name="parks_name_laskabacki">Rezerwat przyrody Las Kabacki im. Stefana Starzyńskiego</string>
+    <string name="parks_text_laskabacki">Las Kabacki to rezerwat krajobrazowy. Położony jest na płaskim terenie urozmaiconym we wschodniej części wzniesieniami pochodzenia wydmowego. Wyjątkowym akcentem krajobrazowym jest wysoka skarpa nad pradoliną Wisły, która jest jednocześnie granicą najbardziej na wschód wysuniętej części rezerwatu.\nJest to największy na Mazowszu rezerwat przyrody. Ma on nie tylko duże znaczenie przyrodniczo-krajobrazowe, ale i historyczne. Jest popularnym miejscem wypoczynku i rekreacji.\nOchronę prawną, ze względu na swoje wartości przyrodniczo – krajobrazowe, teren ten uzyskał na mocy zarządzenia Ministra Leśnictwa i Przemysłu Drzewnego z dnia 11 sierpnia 1980, opublikowanego w Monitorze Polskim nr 19 z 1980, pod pozycją 94. Ochroną objęto 902,68 ha. Celem ochrony jest fragment skarpy warszawskiej wraz z leśnym zespołem grądowym.\nW południowo-wschodniej części lasu położony jest Park Kultury w Powsinie, graniczy z nim ogród botaniczny Polskiej Akademii Nauk. Obiekty te są popularnymi miejscami wypoczynku, co wpływa na zwiększenie ruchu pieszego oraz rowerowego w granicach rezerwatu.</string>
+    <string name="parks_www_laskabacki">https://pl.wikipedia.org/wiki/Rezerwat_przyrody_Las_Kabacki_im._Stefana_Starzy%C5%84skiego</string>
+    <string name="parks_address_laskabacki"> Kabaty w Warszawie</string>
 
     <string name="title_activity_maps">Map</string>
 

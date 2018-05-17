@@ -45,7 +45,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // Add a marker in restaurant and move the camera
         LatLng restaurantName = new LatLng(52.189676, 21.068814);
  //       LatLng restaurantName = new LatLng(attraction.getLatitude(), attraction.getLongitude());
-        mMap.addMarker(new MarkerOptions().position(restaurantName).title(getString(R.string.restaurants_title_nabo)));
+        mMap.addMarker(new MarkerOptions().position(restaurantName).title(getString(R.string.restaurants_name_nabo)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(restaurantName));
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(restaurantName, 12 ) );
     }

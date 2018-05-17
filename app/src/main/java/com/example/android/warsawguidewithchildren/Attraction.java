@@ -10,7 +10,8 @@ public class Attraction implements Serializable {
 
     private String mTitle;
     private String mShortText;
-    private int mImageResourceId;
+
+    private int[] imagesResources;
     private String mPhoneNumber;
     private String mAddress;
     private String mwwwAddress;
@@ -22,13 +23,35 @@ public class Attraction implements Serializable {
                       String wwwAddress, double latitude, double  longitude) {
         mTitle = title;
         mShortText = shortText;
-        mImageResourceId = imageResourceId;
+        imagesResources=new int[]{imageResourceId};
         mPhoneNumber = phoneNumber;
         mAddress = address;
         mwwwAddress = wwwAddress;
         mLatitude = latitude;
         mLongitude = longitude;
     }
+
+
+
+
+
+    public Attraction(String title, String shortText, String address,
+                      String wwwAddress, double latitude, double  longitude,
+                      int[] imageResourceId) {
+        mTitle = title;
+        mShortText = shortText;
+
+        imagesResources=new int[imageResourceId.length];
+        for (int i=0; i<imagesResources.length;i++) {
+            imagesResources[i]=imageResourceId[i];
+        };
+
+        mAddress = address;
+        mwwwAddress = wwwAddress;
+        mLatitude = latitude;
+        mLongitude = longitude;
+    }
+
 
     public String getTitle() {
         return mTitle;
@@ -44,12 +67,14 @@ public class Attraction implements Serializable {
         return "Attraction{" +
                 "mTitle='" + mTitle + '\'' +
                 ", mShortText='" + mShortText + '\'' +
-                ", mImageResourceId=" + mImageResourceId +
+
                 '}';
     }
 
-    public int getImageResourceId() {
-        return mImageResourceId;
+
+
+    public int[] getImagesResources() {
+        return imagesResources;
     }
 
     public String getPhoneNumber() {
