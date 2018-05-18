@@ -25,4 +25,25 @@ public class RestaurantSingleFragment extends SingleFragment {
     {
         layout=R.layout.fragment_restaurant_single;
     }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View rootView=super.onCreateView(inflater, container, savedInstanceState);
+         if(attraction!=null) {
+             TextView phoneTextView = (TextView) rootView.findViewById(R.id.phone);
+             // Get the version number from the current Song object and
+             // set this text on the number TextView
+                 phoneTextView.setText(attraction.getPhoneNumber());
+                 phoneTextView.setOnClickListener(new View.OnClickListener() {
+                     @Override
+                     public void onClick(View v) {
+                         Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", (attraction.getPhoneNumber()), null));
+                         startActivity(intent);
+                     }
+                 });
+
+         }
+
+        return rootView;
+    }
 }

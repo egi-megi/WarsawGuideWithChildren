@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#311B92</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
     <color name="colorAccent">#FF4081</color>
 
     <!-- Background color for app -->
-    <color name="tan_background">#FFF7DA</color>
+    <color name="tan_background">#311B92</color>
 
     <!-- Background color for the numbers category -->
-    <color name="attraction_playgrounds">#FD8E09</color>
+    <color name="attraction_playgrounds">#004D40</color>
 
     <!-- Background color for the family members category -->
-    <color name="attraction_restaurants">#379237</color>
+    <color name="attraction_restaurants">#880E4F</color>
 
     <!-- Background color for the colors category -->
-    <color name="attraction_sightseeing">#8800A0</color>
+    <color name="attraction_sightseeing">#4A148C</color>
 
     <!-- Background color for the phrases category -->
-    <color name="attraction_parks">#16AFCA</color>
+    <color name="attraction_parks">#1A237E</color>
 
-    <color name="text_tabs_color">#FD8E09</color>
-    <color name="background_tabs_color">#8800A0</color>
+    <color name="text_tabs_color">#311B92</color>
+    <color name="background_tabs_color">#FFB600</color>
 </resources>

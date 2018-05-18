@@ -12,13 +12,17 @@
         android:layout_width="@dimen/list_item_width"
         android:layout_height="@dimen/list_item_height"
         android:src="@drawable/warsaw"
-        android:background="@color/tan_background"/>
+        android:background="@color/tan_background"
+        android:scaleType="centerCrop"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/list_item_height"
             android:orientation="vertical"
             android:paddingLeft="@dimen/margin_main"
+            android:paddingRight="@dimen/margin_main_smaller"
+            android:paddingTop="@dimen/margin_main_smaller"
+            android:paddingBottom="@dimen/margin_main_smaller"
             android:gravity="center_vertical"
             android:id="@+id/text_container">
 
@@ -29,7 +33,8 @@
                 tools:text="lutti"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
-                android:textSize="@dimen/text_size_title_attraction"/>
+                android:textSize="@dimen/text_size_title_attraction"
+                android:paddingBottom="@dimen/margin_main_bottom_list"/>
 
             <TextView
                 android:layout_width="wrap_content"

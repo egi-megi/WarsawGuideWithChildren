@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,32 +34,35 @@ public class SingleFragment extends Fragment implements OnMapReadyCallback, Goog
 
     Attraction attraction;
 
+ //   private int mColorResourceId;
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         attraction = (Attraction) getArguments().getSerializable("attraction");
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(layout, container, false);
-
+ //       mColorResourceId = colorResourceId;
 
         if (attraction != null) {
             // Find the TextView in the single_song_item.xml layout with the ID version_name
-            TextView titleNameTextView = (TextView) rootView.findViewById(R.id.restaurant_name);
+            TextView titleNameTextView = (TextView) rootView.findViewById(R.id.name);
             // Get the version name from the current Song object and
             // set this text on the name TextView
             titleNameTextView.setText(attraction.getTitle());
 
             // Find the TextView in the single_song_item.xml layout with the ID version_number
-            TextView descriptionTextView = (TextView) rootView.findViewById(R.id.restaurant_description);
+            TextView descriptionTextView = (TextView) rootView.findViewById(R.id.description);
             // Get the version number from the current Song object and
             // set this text on the number TextView
             descriptionTextView.setText(attraction.getShortText());
 
 
-            LinearLayout hsv = (LinearLayout) rootView.findViewById(R.id.playgrounds_img_view);
+            LinearLayout hsv = (LinearLayout) rootView.findViewById(R.id.img_view);
             for (int imgId : attraction.getImagesResources()) {
                 ImageView iv = new ImageView(inflater.getContext());
                 iv.setImageResource(imgId);
@@ -71,28 +75,16 @@ public class SingleFragment extends Fragment implements OnMapReadyCallback, Goog
                 hsv.addView(iv);
             }
             // Find the TextView in the single_song_item.xml layout with the ID version_number
-            TextView phoneTextView = (TextView) rootView.findViewById(R.id.restaurant_phone);
-            // Get the version number from the current Song object and
-            // set this text on the number TextView
-            if (phoneTextView != null) {
-                phoneTextView.setText(attraction.getPhoneNumber());
-                phoneTextView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", (attraction.getPhoneNumber()), null));
-                        startActivity(intent);
-                    }
-                });
-            }
+
 
             // Find the TextView in the single_song_item.xml layout with the ID version_number
-            TextView addressTextView = (TextView) rootView.findViewById(R.id.restaurant_address);
+            TextView addressTextView = (TextView) rootView.findViewById(R.id.address);
             // Get the version number from the current Song object and
             // set this text on the number TextView
             addressTextView.setText(attraction.getAddress());
 
             // Find the TextView in the single_song_item.xml layout with the ID version_number
-            TextView wwwAddressTextView = (TextView) rootView.findViewById(R.id.restaurant_wwwAddress);
+            TextView wwwAddressTextView = (TextView) rootView.findViewById(R.id.wwwAddress);
             // Get the version number from the current Song object and
             // set this text on the number TextView
             wwwAddressTextView.setText(attraction.getwwwAddress());
@@ -114,6 +106,12 @@ public class SingleFragment extends Fragment implements OnMapReadyCallback, Goog
                     .findFragmentById(R.id.map);
             mapFragment.getMapAsync(this);
 
+//            // Set the theme color for the list item
+//            View textContainer = rootView.findViewById(R.id.fragment_single);
+//            // Find the color that the resource ID maps to
+//            int color = ContextCompat.getColor(getContext(), mColorResourceId);
+//            // Set the background color of the text container View
+//            textContainer.setBackgroundColor(color);
 
         }
         return rootView;

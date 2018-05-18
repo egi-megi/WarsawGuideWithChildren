@@ -77,6 +77,10 @@ public class Attraction implements Serializable {
         return imagesResources;
     }
 
+    public int getImageResourceId() {
+        return imagesResources[0];
+    }
+
     public String getPhoneNumber() {
         return mPhoneNumber;
     }

@@ -32,11 +32,11 @@ public class CategoryAdapter  extends FragmentPagerAdapter {
         if (position == 0) {
             return new PlaygroundsFragment();
         } else if (position == 1){
-            return new RestaurantsFragment();
+            return new ParksFragment();
         } else if (position == 2){
             return new SightseeingFragment();
         } else {
-            return new ParksFragment();
+            return new RestaurantsFragment();
         }
     }
 
@@ -50,11 +50,11 @@ public class CategoryAdapter  extends FragmentPagerAdapter {
         if (position == 0) {
             return mContext.getString(R.string.attraction_playgrounds);
         } else if (position == 1) {
-            return mContext.getString(R.string.attraction_restaurants);
+            return mContext.getString(R.string.attraction_parks);
         } else if (position == 2) {
             return mContext.getString(R.string.attraction_sightseeing);
         } else {
-            return mContext.getString(R.string.attraction_parks);
+            return mContext.getString(R.string.attraction_restaurants);
         }
     }
 

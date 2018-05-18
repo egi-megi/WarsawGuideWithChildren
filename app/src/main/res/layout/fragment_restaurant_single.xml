@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/black">
+    android:layout_height="match_parent">
 
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/fragment_restaurant_single"
+        android:id="@+id/fragment_single"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@android:color/black">
+
 
         <!--Photo by Kamil Gliwinski
         <ImageView
@@ -18,85 +20,144 @@
             android:layout_height="200dp"
             android:background="@android:color/holo_red_dark"
             android:src="@drawable/warsaw" /> -->
-    <HorizontalScrollView
-
-             android:layout_width="match_parent"
-             android:layout_height="200dp">
-          <LinearLayout
-              android:id="@+id/playgrounds_img_view"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="horizontal"></LinearLayout>
-         </HorizontalScrollView>
-        <TextView
-            android:id="@+id/restaurant_phone"
-            android:layout_width="wrap_content"
+        <HorizontalScrollView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/text_size_text_attraction"
-            tools:text="one" />
+            android:paddingBottom="@dimen/margin_main_smaller">
+            <LinearLayout
+                android:id="@+id/img_view"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                </LinearLayout>
+        </HorizontalScrollView>
+
 
         <TextView
-            android:id="@+id/restaurant_address"
+            android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_main_smaller"
+            android:paddingLeft="@dimen/margin_main"
+            android:paddingTop="@dimen/margin_main"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/text_size_text_attraction"
-            tools:text="address" />
-
-        <TextView
-            android:id="@+id/restaurant_wwwAddress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/text_size_text_attraction"
-            android:autoLink="web"
-            tools:text="wwwAddress" />
-
-        <TextView
-            android:id="@+id/restaurant_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="name"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/text_size_title_attraction"
+            android:textSize="@dimen/text_size_title_attraction_single_fragment"
             android:textStyle="bold"
-            tools:text="lutti" />
-
-<ImageView
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/map_image_view_restaurant"
-    android:name="com.google.android.gms.maps.SupportMapFragment"
-    android:layout_width="150dp"
-    android:layout_height="150dp"
-    tools:context="com.example.android.warsawguidewithchildren.MapsActivity" />
-
-
-        <fragment
-            xmlns:tools="http://schemas.android.com/tools"
-            android:id="@+id/map"
-            android:name="com.google.android.gms.maps.SupportMapFragment"
-            android:layout_width=
-                "match_parent"
-            android:layout_height="250dp"
-
-           />
-        <!--   android:scaleType="center"
-               tools:context="com.example.android.warsawguidewithchildren.MapsActivity" -->
-        <!--<ImageView-->
-            <!--android:id="@+id/map_image"-->
-            <!--android:layout_width="80dp"-->
-            <!--android:layout_height="80dp"-->
-            <!--android:background="@android:color/holo_red_dark"-->
-            <!--android:src="@drawable/warsaw" />-->
+            tools:text="name" />
 
         <TextView
-            android:id="@+id/restaurant_description"
+            android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_main_smaller"
+            android:paddingLeft="@dimen/margin_main"
+            android:paddingRight="@dimen/margin_main"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_text_attraction"
             tools:text="description" />
 
+        <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_main">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_main_smaller"
+            android:paddingRight="@dimen/margin_main"
+            android:text="@string/restaurants_menu"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_title_attraction"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/wwwAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/margin_main_smaller"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_title_attraction"
+            tools:text="wwwAddress" />
+
     </LinearLayout>
-</ScrollView>
+
+    <!--<ImageView-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/map_image_view_restaurant"-->
+    <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--tools:context="com.example.android.warsawguidewithchildren.MapsActivity" />-->
+
+
+    <fragment xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <!--   android:scaleType="center"
+           tools:context="com.example.android.warsawguidewithchildren.MapsActivity" -->
+    <!--<ImageView-->
+    <!--android:id="@+id/map_image"-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:background="@android:color/holo_red_dark"-->
+    <!--android:src="@drawable/warsaw" />-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_main"
+            android:paddingTop="@dimen/margin_main">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_call_white_24" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_title_attraction"
+                android:textStyle="bold"
+                tools:text="phone"
+                android:paddingLeft="@dimen/margin_main"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_main"
+            android:paddingTop="@dimen/margin_main">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_mail_outline_white_24"/>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_title_attraction"
+                android:textStyle="bold"
+                android:autoLink="web"
+                tools:text="address"
+                android:paddingLeft="@dimen/margin_main"/>
+        </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

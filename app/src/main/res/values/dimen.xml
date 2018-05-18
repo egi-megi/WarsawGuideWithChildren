@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="list_item_height">100dp</dimen>
+    <dimen name="list_item_height">150dp</dimen>
     <dimen name="list_item_width">150dp</dimen>
     <dimen name="margin_main">16dp</dimen>
 
-    <dimen name="text_size_title_attraction">20sp</dimen>
-    <dimen name="text_size_text_attraction">16sp</dimen>
+    <dimen name="margin_main_smaller">10dp</dimen>
+    <dimen name="margin_main_bottom_list">2dp</dimen>
+
+    <dimen name="text_size_title_attraction">16sp</dimen>
+    <dimen name="text_size_text_attraction">13sp</dimen>
+
+    <dimen name="text_size_title_attraction_single_fragment">22sp</dimen>
 
 </resources>
