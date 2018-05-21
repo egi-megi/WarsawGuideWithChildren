@@ -12,15 +12,15 @@ public class AttractionsApplication extends Application {
     // Here are declaring the components of the class SongsApplication
     ArrayList<Attraction> restaurantsList;
     ArrayList<Attraction> playgroundsList;
-//    ArrayList<Attraction> sightseeingList;
-//    ArrayList<Attraction> parksList;
+    ArrayList<Attraction> sightseeingList;
+    ArrayList<Attraction> parksList;
 
     public AttractionsApplication() {
         // Here are create 3 new ArrayLists for objects Song and Band included songs
         this.restaurantsList = new ArrayList<>();
         this.playgroundsList = new ArrayList<>();
-//        this.sightseeingList = new ArrayList<>();
-//        this.parksList = new ArrayList<>();
+        this.sightseeingList = new ArrayList<>();
+        this.parksList = new ArrayList<>();
 
     }
 
@@ -29,8 +29,8 @@ public class AttractionsApplication extends Application {
         super.onCreate();
         insertRestaurants();
         insertPlaygrounds();
-//        insertSightseeing();
-//        insertParks();
+        insertSightseeing();
+        insertParks();
     }
 
     //Here are placed all songs for this Music Application
@@ -64,11 +64,21 @@ public class AttractionsApplication extends Application {
 //        sightseeingList.add(new Attraction("Co zwiedzać 1", getString(R.string.restaurants_text_nabo), R.drawable.warsaw));
 //        sightseeingList.add(new Attraction("Co zwiedzać 2", getString(R.string.restaurants_text_akademia), R.drawable.warsaw));
 //    }
-//
-//    void insertParks() {
-//        parksList.add(new Attraction("Park 1", getString(R.string.restaurants_text_nabo), R.drawable.warsaw));
-//        parksList.add(new Attraction("Park 2", getString(R.string.restaurants_text_akademia), R.drawable.warsaw));
-//    }
+
+    void insertParks() {
+        parksList.add(new Attraction(getString(R.string.parks_name_lazienki), getString(R.string.parks_text_lazienki), getString(R.string.parks_address_lazienki), getString(R.string.parks_www_lazienki), 52.215122, 21.031622, new int[]{R.drawable.parks_lazienki_1, R.drawable.parks_lazienki_2, R.drawable.parks_lazienki_3, R.drawable.parks_lazienki_4, R.drawable.parks_lazienki_5, R.drawable.parks_lazienki_6, R.drawable.parks_lazienki_7} ));
+        parksList.add(new Attraction(getString(R.string.parks_name_polemokotowskie), getString(R.string.parks_text_polemokotowskie), getString(R.string.parks_address_polemokotowskie), getString(R.string.parks_www_polemokotowskie),52.212433, 21.003847, new int[]{R.drawable.parks_polemokotwskie_1, R.drawable.parks_polemokotwskie_2, R.drawable.parks_polemokotwskie_3} ));
+        parksList.add(new Attraction(getString(R.string.parks_name_wilanow), getString(R.string.parks_text_wilanow), getString(R.string.parks_address_wilanow), getString(R.string.parks_www_wilanow), 52.166397, 21.090960, new int[]{R.drawable.parks_wilanow_1, R.drawable.parks_wilanow_2, R.drawable.parks_wilanow_3, R.drawable.parks_wilanow_4, R.drawable.parks_wilanow_5, R.drawable.parks_wilanow_6, R.drawable.parks_wilanow_7} ));
+        parksList.add(new Attraction(getString(R.string.parks_name_parkbrodnowski), getString(R.string.parks_text_parkbrodnowski), getString(R.string.parks_address_parkbrodnowski), getString(R.string.parks_www_parkbrodnowski), 52.291184, 21.037514, new int[]{R.drawable.parks_parkbrodnowski_1, R.drawable.parks_parkbrodnowski_2, R.drawable.parks_parkbrodnowski_3, R.drawable.parks_parkbrodnowski_4, R.drawable.parks_parkbrodnowski_5, R.drawable.parks_parkbrodnowski_6, R.drawable.parks_parkbrodnowski_7} ));
+        parksList.add(new Attraction(getString(R.string.parks_name_lasbrodnowski), getString(R.string.parks_text_lasbrodnowski), getString(R.string.parks_address_lasbrodnowski), getString(R.string.parks_www_lasbrodnowski), 52.297266, 21.059296, new int[]{R.drawable.parks_lasbrodnowski_1, R.drawable.parks_lasbrodnowski_2, R.drawable.parks_lasbrodnowski_3, R.drawable.parks_lasbrodnowski_4, R.drawable.parks_lasbrodnowski_5} ));
+        parksList.add(new Attraction(getString(R.string.parks_name_skaryszewski), getString(R.string.parks_text_skaryszewski), getString(R.string.parks_address_skaryszewski), getString(R.string.parks_www_skaryszewski), 52.242491, 21.054736, new int[]{R.drawable.parks_skaryszewski_1, R.drawable.parks_skaryszewski_2, R.drawable.parks_skaryszewski_3, R.drawable.parks_skaryszewski_4, R.drawable.parks_skaryszewski_5, R.drawable.parks_skaryszewski_6, R.drawable.parks_skaryszewski_7} ));
+        parksList.add(new Attraction(getString(R.string.parks_name_laskabacki), getString(R.string.parks_text_laskabacki), getString(R.string.parks_address_laskabacki), getString(R.string.parks_www_laskabacki), 52.129543, 21.046044, new int[]{R.drawable.parks_laskabacki_1, R.drawable.parks_laskabacki_2, R.drawable.parks_laskabacki_3, R.drawable.parks_laskabacki_4, R.drawable.parks_laskabacki_5, R.drawable.parks_laskabacki_6} ));
+        parksList.add(new Attraction(getString(R.string.parks_name_kampinos), getString(R.string.parks_text_kampinos), getString(R.string.parks_address_kampinos), getString(R.string.parks_www_kampinos), 52.301724, 20.799020, new int[]{R.drawable.parks_kampinos_1, R.drawable.parks_kampinos_2, R.drawable.parks_kampinos_3, R.drawable.parks_kampinos_4, R.drawable.parks_kampinos_5, R.drawable.parks_kampinos_6, R.drawable.parks_kampinos_7} ));
+    }
+
+    void insertSightseeing() {
+        sightseeingList.add(new Attraction(getString(R.string.parks_name_lazienki), getString(R.string.parks_text_lazienki), getString(R.string.parks_address_lazienki), getString(R.string.parks_www_lazienki), 52.215122, 21.031622, new int[]{R.drawable.parks_lazienki_1, R.drawable.parks_lazienki_2, R.drawable.parks_lazienki_3, R.drawable.parks_lazienki_4, R.drawable.parks_lazienki_5, R.drawable.parks_lazienki_6, R.drawable.parks_lazienki_7}));
+    }
 
     public Attraction findSingleRestaurant(String titleNameSingleRestaurant) {
         for (int i = 0; i < restaurantsList.size(); i++) {
@@ -88,5 +98,11 @@ public class AttractionsApplication extends Application {
         return playgroundsList;
     }
 
+    public ArrayList<Attraction> getParksList() {
+        return parksList;
+    }
 
+    public ArrayList<Attraction> getSightseeingList() {
+        return sightseeingList;
+    }
 }

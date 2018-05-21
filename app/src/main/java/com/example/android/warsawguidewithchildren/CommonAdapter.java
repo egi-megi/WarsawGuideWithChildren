@@ -4,6 +4,8 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,18 +16,18 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by egi-megi on 17.05.18.
+ * Created by egi-megi on 21.05.18.
  */
 
-public class PlaygroundsAdapter extends ArrayAdapter<Attraction> {
+public class CommonAdapter extends ArrayAdapter<Attraction> {
 
     /**
      * Resource ID for the background color for this list of words
      */
-    private int mColorResourceId;
+    public int mColorResourceId;
 
 
-    public PlaygroundsAdapter(@NonNull Context context, @NonNull List<Attraction> words, int colorResourceId) {
+    public CommonAdapter(@NonNull Context context, @NonNull List<Attraction> words, int colorResourceId) {
         super(context, 0, words);
         mColorResourceId = colorResourceId;
     }

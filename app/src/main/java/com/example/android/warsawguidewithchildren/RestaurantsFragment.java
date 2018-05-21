@@ -19,7 +19,7 @@ public class RestaurantsFragment extends Fragment {
 
         final List<Attraction> attractions = ((AttractionsApplication) getActivity().getApplication()).getRestaurantsList();
 
-        RestaurantsAdapter adapter = new RestaurantsAdapter(getActivity(), attractions, R.color.attraction_restaurants);
+        CommonAdapter adapter = new CommonAdapter(getActivity(), attractions, R.color.attraction_restaurants);
         ListView listView = (ListView) rootView.findViewById(R.id.attraction_list_layout);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
