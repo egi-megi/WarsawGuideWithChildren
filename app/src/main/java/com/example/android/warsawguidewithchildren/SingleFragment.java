@@ -124,7 +124,7 @@ public class SingleFragment extends Fragment implements OnMapReadyCallback, Goog
             LatLng attarctionPos = new LatLng(attraction.getLatitude(), attraction.getLongitude());
             googleMap.addMarker(new MarkerOptions().position(attarctionPos)
                     .title(attraction.getTitle()));
-            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(attarctionPos, 12f));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(attarctionPos, 13f));
             googleMap.setOnInfoWindowClickListener(this);
         }
 

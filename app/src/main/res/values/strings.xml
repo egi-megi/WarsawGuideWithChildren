@@ -169,13 +169,15 @@
 
     <string name="sightseeing_name_staremiasto">Stare Miasto</string>
     <string name="sightseeing_text_staremiasto">Stare Miasto w Warszawie – dawne miasto Stara Warszawa, najstarszy ośrodek miejski Warszawy będący zwartym zespołem architektury zabytkowej, przeważnie z XVII i XVIII wieku o średniowiecznym układzie zabudowy, otoczone pierścieniem murów obronnych z XIV–XVI wieku.\nnStara Warszawa była miastem królewskim Korony Królestwa Polskiego w województwie mazowieckim. \nnStare Miasto zostało założone na skarpie, nad brzegiem dopływu Wisły – rzeczki Kamionki, obok zamku książąt mazowieckich wzniesionego kilka lat wcześniej w miejscu najstarszej części obecnego Zamku Królewskiego, na północ od wsi Warszawa.\nnJego początki sięgają XIII wieku. Wtedy otoczone było wałem ziemnym, który pod koniec XIV wieku został zastąpiony murem obronnym. Ciągnął się on od skarpy wiślanej na zachód, wzdłuż dzisiejszej ulicy Podwale do Piekarskiej, następnie obok kościoła św. Marcina aż do zamku. Uważa się, że założycielem miasta był Bolesław II, książę mazowiecki i płocki. Z uwagi na korzystne położenie, na szlaku handlowym znad Morza Czarnego ku Bałtykowi, osiedlili się w Starej Warszawie głównie bogaci kupcy. Pozostałość warszawskiego odcinka owej drogi handlowej to dzisiejsza ulica Świętojańska, Rynku i Nowomiejska.</string>
-    <string name="sightseeing_www_staremiasto">https://pl.wikipedia.org/wiki/Stare_Miasto_w_Warszawie</string>
+    <string name="sightseeing_phone_staremiasto">+48 22 35 55 170</string>
+    <string name="sightseeing_www_staremiasto">https://www.zamek-krolewski.pl/</string>
     <string name="sightseeing_address_staremiasto"> Śródmieście</string>
     <string name="sightseeing_hours_staremiasto">    Stare Miasto: cała dobę \n    Zamek Królewski:\n       pn. zamknięte\n       wt.-czw., sob.-niedz. 10.00–18.00\n       pt. 10.00–20.00</string>
     <string name="sightseeing_price_staremiasto">    Stare Miasto: wstęp wolny \n    Zamek Królewski:\n       bilet normalny – 30,00 zł\n (przy zwiedzaniu skróconym i po 16.30: 20,00 zł)       bilet ulgowy – 20,00 zł\n(przy zwiedzaniu skróconym i po 16.30: 10,00 zł)       dzieci i młodzież do 16 roku życia – 1,00 zł\n       bilety grupowe: normalny – 25,00 zł/os., ulgowy – 15,00 zł/os., dzieci i młodzież do 16 roku życia – 1,00 zł\n       Dzień bezpłatny – środa</string>
 
     <string name="sightseeing_name_wilanow">Pałac w Wilanowie</string>
     <string name="sightseeing_text_wilanow">Bogactwo wątków i inspiracji, które potrafimy dziś odczytać w rezydencji wilanowskiej, jest w przeważającej mierze wynikiem erudycji króla Jana III. Jego osobowość silnie oddziałała nie tylko na program treściowy i idee związane z tym miejscem, ale i na jego postrzeganie przez kolejne pokolenia. Wilanów stał się – i jest do dziś – Monumentum Sobiescianum, pomnikiem chwały i osobowości tego wielkiego monarchy.\n\nTen silny związek Wilanowa z jego twórcą, Janem Sobieskim, ma swe źródło przede wszystkim w trzech faktach. Po pierwsze – rezydencja wilanowska została wybudowana praktycznie od podstaw, nie był więc monarcha ograniczony wcześniejszymi założeniami. Po drugie – Jan III zmarł właśnie w Wilanowie, w jednym z pałacowych pomieszczeń. Po trzecie wreszcie – i jest to prawdopodobnie najważniejsza okoliczność – epoka Jana III, której cienie przykrył blask wielkiego zwycięstwa w bitwie pod Wiedniem (1683), uznawana była za ostatni moment chwały i potęgi Rzeczypospolitej Obojga Narodów. Bogata i oryginalna kultura jednego z największych krajów Europy znalazła wybitnego reprezentanta w osobie Jana Sobieskiego. Po jego śmierci, w zmierzchu potęgi kraju lśnił Wilanów blaskiemjego sławy, a złote tarcze umieszczone na pałacowej fasadzie nieprzerwanie odbijały promienie minionych triumfów.</string>
+    <string name="sightseeing_phone_wilanow">+48 22 54 42 700</string>
     <string name="sightseeing_www_wilanow">http://www.wilanow-palac.pl/</string>
     <string name="sightseeing_address_wilanow">Wilanów</string>
     <string name="sightseeing_hours_wilanow">    09.00-21.00</string>
@@ -183,6 +185,7 @@
 
     <string name="sightseeing_name_palackultury">Pałac Kultury i Nauki </string>
     <string name="sightseeing_text_palackultury">Na 30 pietrze Pałacu Kultury i Nauki znajduje się Taras Widokowy, teatry, kino, muzea, restauracje, bary, kluby.</string>
+    <string name="sightseeing_phone_palackultury">+48 22 656 76 00</string>
     <string name="sightseeing_www_palackultury">http://www.pkin.pl/</string>
     <string name="sightseeing_address_palackultury"> Śródmieście</string>
     <string name="sightseeing_hours_palackultury">    Taras Widokowy na XXX: pn.-niedz. 10.00-20.00</string>
@@ -190,6 +193,7 @@
 
     <string name="sightseeing_name_centrumnaukikopernik">Centrum Nauki Kopernik</string>
     <string name="sightseeing_text_centrumnaukikopernik">Drodzy Rodzice. Często pytacie nas o to, czy Wasze dziecko jest już wystarczająco duże, aby przyjść do Kopernika. Kopernik jest dla każdego, a dla dzieci w wieku od 3 do 5 lat mamy specjalne propozycje.\nnW Koperniku znajdziecie galerię Bzzz! (dla dzieci do lat 5), której przestrzeń zaprojektowano tak, by wykorzystać naturalną ciekawość i potrzebę ruchu dzieci i skierować ją na tory samodzielnego odkrywania przyrody. Rada praktyczna: jeśli wybierzecie się do galerii Bzzz! weźcie plastikowy fartuszek lub ubranie na zmianę – dzieci mogą się tam zachlapać wodą.\nnPlanetarium Niebo Kopernika przygotowało dla tej grupy wiekowej film „Pod jednym niebem” i odbywający się przed nim pokaz na żywo „Zając Franek i gwiezdna przygoda”. Prowadzą je specjalnie przygotowani prezenterzy, którzy skupiają uwagę i rozbudzają ciekawość dzieci.\nnStarsze dzieci pod opieką dorosłego mogą też zwiedzać wystawy, wiele z eksponatów z cała pewnością je zachwyci. Dzieci uwielbiają też Majsternię, w której wspólnie z rodzicem czy opiekunem mogą usiąść przy stole i wykonać odpowiednie dla nich zadania. </string>
+    <string name="sightseeing_phone_centrumnaukikopernik">+48 22 59 64 100</string>
     <string name="sightseeing_www_centrumnaukikopernik">http://www.kopernik.org.pl/</string>
     <string name="sightseeing_address_centrumnaukikopernik">Powiśle</string>
     <string name="sightseeing_hours_centrumnaukikopernik">    wt.-niedz. 08.00–20.00\n       pn. nieczynne</string>
@@ -197,6 +201,7 @@
 
     <string name="sightseeing_name_fontanny">Fontanny multimedialne</string>
     <string name="sightseeing_text_fontanny">Multimedialny Park Fontann w Warszawie to instalacja o dużych możliwościach – 367 różnorodnych dysz wodnych oraz ponad 300 punktów świetlnych tworzą wspaniałe widowisko!\n\nPokazy multimedialne Woda-światło-dźwięk to połączenie między innymi wodnych gejzerów, światła generowanego przez system reflektorów LED i laserów (pełna paleta barw RGB) oraz dźwięku. Do wizualizacji wykorzystywany jest ekran wodny, na którym wyświetlane są obrazy oraz animacje. Warszawski Multimedialny Park Fontann przygotowuje widowiska cykliczne oraz na widowiska specjalne okazje, zazwyczaj trwające około 30 minut. W pokazach wykorzystuje się muzykę klasyczną, elektroniczną oraz filmową.</string>
+    <string name="sightseeing_phone_fontanny">+48 22 849 32 86</string>
     <string name="sightseeing_www_fontanny">http://fontanna-multimedialna.pl/</string>
     <string name="sightseeing_address_fontanny">Skwer 1 Dywizji Pancernej WP</string>
     <string name="sightseeing_hours_fontanny">    Pn.-sob.:\n       8:30 – uruchomienie\n       16:00 – widowisko z użyciem dysz (bez światła, laserów i muzyki)\n       22:30 – zakończenie\ndodatkowo pt.-sob. – pokaz multimedialny:\n        21:00 – 01-05.05.2018\n       21.30 – 11.05-11.08.2018\n       21:00 – 17.08-29.09.2018</string>
@@ -204,6 +209,7 @@
 
     <string name="sightseeing_name_swiatelkazima">Świąteczna iluminacja</string>
     <string name="sightseeing_text_swiatelkazima">Iluminacja rozświetla Łazienki prawie od poczatku grudnia do końca lutego, po zmroku - od bramy przy ul. Agrykoli, wzdłuż Alei Chińskiej, do bramy przy ulicy Gagarina. Zwiedzający mogą oglądać tam kilkumetrowe, świetliste postaci w strojach z epoki. Świąteczny blask zyskała też ulica Agrykola - aleję spacerową zdobi dekoracja-baldachim. Aleję Chińską wypełniła stylowa iluminacja świetlna, zaś przed Pałacem na Wyspie stanęła kilkumetrowa choinka, tworząc nastrojowy klimat do wieczornych spacerów.</string>
+    <string name="sightseeing_phone_swiatelkazima">+48 22 50 60 024</string>
     <string name="sightseeing_www_swiatelkazima">https://www.lazienki-krolewskie.pl/pl/aktualnosci/swiateczna-iluminacja-w-lazienkach-krolewskich</string>
     <string name="sightseeing_address_swiatelkazima">Łazienki Królewskie</string>
     <string name="sightseeing_hours_swiatelkazima">od zapadnięcia zmroku aż do godz. 22.00</string>

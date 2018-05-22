@@ -2,13 +2,13 @@
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/fragment_single"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@android:color/black">
 
@@ -21,13 +21,13 @@
             android:background="@android:color/holo_red_dark"
             android:src="@drawable/warsaw" /> -->
         <HorizontalScrollView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="@dimen/margin_main_smaller">
             <LinearLayout
                 android:id="@+id/img_view"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
                 android:layout_gravity="center_horizontal"
                 android:orientation="horizontal">
             </LinearLayout>
@@ -57,6 +57,56 @@
             android:textSize="@dimen/text_size_text_attraction"
             tools:text="description" />
 
+        <TextView
+            android:id="@+id/hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_main_smaller"
+            android:paddingLeft="@dimen/margin_main"
+            android:paddingRight="@dimen/margin_main"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_text_attraction"
+            tools:text="description" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_main_smaller"
+            android:paddingLeft="@dimen/margin_main"
+            android:paddingRight="@dimen/margin_main"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_text_attraction"
+            tools:text="description" />
+
+        <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_main">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_main_smaller"
+                android:paddingRight="@dimen/margin_main"
+                android:text="@string/restaurants_menu"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_title_attraction"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wwwAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:paddingBottom="@dimen/margin_main_smaller"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_title_attraction"
+                tools:text="wwwAddress" />
+
+        </LinearLayout>
 
         <!--<ImageView-->
         <!--xmlns:tools="http://schemas.android.com/tools"-->
@@ -93,18 +143,18 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/baseline_mail_outline_white_24"/>
+                android:src="@drawable/baseline_call_white_24" />
 
             <TextView
-                android:id="@+id/address"
+                android:id="@+id/phone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/text_size_title_attraction"
                 android:textStyle="bold"
-                android:autoLink="web"
-                tools:text="address"
+                tools:text="phone"
                 android:paddingLeft="@dimen/margin_main"/>
+
         </LinearLayout>
 
         <LinearLayout
@@ -117,17 +167,17 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_language_white_24dp"/>
+                android:src="@drawable/baseline_mail_outline_white_24"/>
 
             <TextView
-                android:id="@+id/wwwAddress"
+                android:id="@+id/address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/text_size_title_attraction"
                 android:textStyle="bold"
                 android:autoLink="web"
-                tools:text="wwwAddress"
+                tools:text="address"
                 android:paddingLeft="@dimen/margin_main"/>
         </LinearLayout>
 
