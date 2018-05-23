@@ -23,12 +23,15 @@
         <HorizontalScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/margin_main_smaller">
+            android:paddingBottom="@dimen/margin_main_smaller"
+            android:paddingTop="@dimen/margin_main_smaller"
+            android:layout_marginLeft="@dimen/margin_main">
             <LinearLayout
                 android:id="@+id/img_view"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="@dimen/margin_main"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
                 android:orientation="horizontal">
             </LinearLayout>
         </HorizontalScrollView>
