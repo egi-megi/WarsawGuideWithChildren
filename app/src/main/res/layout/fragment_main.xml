@@ -3,19 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.warsawguidewithchildren.MainFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.android.warsawguidewithchildren.MainFragment">
 
+    <!--Look of tabs-->
     <android.support.design.widget.TabLayout
         android:id="@+id/sliding_tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabMode="fixed"
         android:background="@color/background_tabs_color"
-        app:tabTextColor="@color/text_tabs_color"
-        app:tabSelectedTextColor="#FFFFFF"
-        app:tabIndicatorColor="#FFFFFF"
-        android:fitsSystemWindows="true"/>
+        android:fitsSystemWindows="true"
+        app:tabIndicatorColor="@color/text_indicator_tabs_color"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@color/text_indicator_tabs_color" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
@@ -23,10 +24,4 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <!-- TODO: Update blank fragment layout
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
--->
 </LinearLayout>

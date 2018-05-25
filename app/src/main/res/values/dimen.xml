@@ -6,10 +6,15 @@
 
     <dimen name="margin_main_smaller">10dp</dimen>
     <dimen name="margin_main_bottom_list">2dp</dimen>
+    <dimen name="margin_main_left_hours_price">32dp</dimen>
+    <dimen name="margin_main_bottom_hours_price">4dp</dimen>
 
     <dimen name="text_size_title_attraction">16sp</dimen>
     <dimen name="text_size_text_attraction">13sp</dimen>
 
     <dimen name="text_size_title_attraction_single_fragment">22sp</dimen>
+    <dimen name="text_size_text_attraction_single_fragment">14sp</dimen>
+
+    <dimen name="high_gallery_map_images">200dp</dimen>
 
 </resources>

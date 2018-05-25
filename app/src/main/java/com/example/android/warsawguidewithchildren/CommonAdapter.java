@@ -22,7 +22,7 @@ import java.util.List;
 public class CommonAdapter extends ArrayAdapter<Attraction> {
 
     /**
-     * Resource ID for the background color for this list of words
+     * Resource ID for the background color for this list of attractions
      */
     public int mColorResourceId;
 
@@ -42,20 +42,22 @@ public class CommonAdapter extends ArrayAdapter<Attraction> {
 
         final Attraction currentAttraction = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID version_name
+        // Find the TextView in the list_item.xml layout with the ID title_name
         final TextView titleNameTextView = (TextView) listItemView.findViewById(R.id.title_name);
-        // Get the version name from the current AndroidFlavor object and
-        // set this text on the name TextView
+        // Get the title_name from the current Attraction object and
+        // set this text on the title_name TextView
         titleNameTextView.setText(currentAttraction.getTitle());
 
-        // Find the TextView in the list_item.xml layout with the ID version_number
+        // Find the TextView in the list_item.xml layout with the ID text_main
         TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.text_main);
-        // Get the version number from the current AndroidFlavor object and
-        // set this text on the number TextView
+        // Get the text_main from the current Attraction object and
+        // set this text on the text_main TextView
         descriptionTextView.setText(currentAttraction.getShortText());
 
-
+        // Find the ImageView in the list_item.xml layout with the ID image
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        // Get the image from the current Attraction object and
+        // set this image on the image in ImageView
         imageView.setImageResource(currentAttraction.getImageResourceId());
 
 

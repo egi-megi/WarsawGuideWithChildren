@@ -15,7 +15,7 @@ import java.util.List;
 
 
 public class ParksFragment extends Fragment {
-    void setupList(View rootView){
+    void setupList(View rootView) {
 
         final List<Attraction> attractions = ((AttractionsApplication) getActivity().getApplication()).getParksList();
 
@@ -30,7 +30,7 @@ public class ParksFragment extends Fragment {
                 Bundle args = new Bundle();
                 args.putSerializable("attraction", attractions.get(i));
                 myFragment.setArguments(args);
-
+                //Go back to the upper Fragment
                 getActivity().getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.container, myFragment)
@@ -39,8 +39,6 @@ public class ParksFragment extends Fragment {
             }
         });
     }
-
-
 
 
     @Override

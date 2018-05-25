@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_container"
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_item_height"
     android:orientation="horizontal">
@@ -11,39 +11,37 @@
         android:id="@+id/image"
         android:layout_width="@dimen/list_item_width"
         android:layout_height="@dimen/list_item_height"
-        android:background="@color/tan_background"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/list_item_height"
-            android:orientation="vertical"
-            android:paddingLeft="@dimen/margin_main"
-            android:paddingRight="@dimen/margin_main_smaller"
-            android:paddingTop="@dimen/margin_main_smaller"
-            android:paddingBottom="@dimen/margin_main_smaller"
-            android:gravity="center_vertical"
-            android:id="@+id/text_container">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_main_smaller"
+        android:paddingLeft="@dimen/margin_main"
+        android:paddingRight="@dimen/margin_main_smaller"
+        android:paddingTop="@dimen/margin_main_smaller">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/title_name"
-                tools:text="lutti"
-                android:textColor="@android:color/white"
-                android:textStyle="bold"
-                android:textSize="@dimen/text_size_title_attraction"
-                android:paddingBottom="@dimen/margin_main_bottom_list"/>
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_main_bottom_list"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_title_attraction"
+            android:textStyle="bold"
+            tools:text="@string/name" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/text_main"
-                tools:text="one"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/text_size_text_attraction"/>
+        <TextView
+            android:id="@+id/text_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_text_attraction"
+            tools:text="@string/description" />
 
-        </LinearLayout>
+    </LinearLayout>
 
 
 </LinearLayout>

@@ -2,10 +2,21 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Stale for name of attraction in Single Fragment -->
+    <style name="name_single_fragment">
+        <item name="layout_width">wrap_content</item>
+        <item name="layout_height">wrap_content</item>
+        <item name="paddingBottom">@dimen/margin_main_smaller</item>
+        <item name="paddingLeft">@dimen/margin_main</item>
+        <item name="paddingTop">@dimen/margin_main</item>
+        <item name="textColor">@android:color/white</item>
+        <item name="textSize">@dimen/text_size_title_attraction_single_fragment</item>
+        <item name="textStyle">bold</item>
     </style>
 
 </resources>

@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 public class Attraction implements Serializable {
 
-    private String mTitle;
+    private final String mTitle;
     private String mShortText;
     private int[] imagesResources;
     private String mPhoneNumber;
@@ -20,14 +20,17 @@ public class Attraction implements Serializable {
     private double mLongitude;
 
 
-    public Attraction(String title, String shortText, String phoneNumber, String address,
-                      String wwwAddress, double latitude, double  longitude, int[] imageResourceId) {
-        mTitle = title;
+    //Constructor with phoneNumber
+
+    public Attraction(String mTitle, String shortText, String phoneNumber, String address,
+                      String wwwAddress, double latitude, double longitude, int[] imageResourceId) {
+        this.mTitle = mTitle;
         mShortText = shortText;
-        imagesResources=new int[imageResourceId.length];
-        for (int i=0; i<imagesResources.length;i++) {
-            imagesResources[i]=imageResourceId[i];
-        };
+        imagesResources = new int[imageResourceId.length];
+        for (int i = 0; i < imagesResources.length; i++) {
+            imagesResources[i] = imageResourceId[i];
+        }
+        ;
         mPhoneNumber = phoneNumber;
         mAddress = address;
         mwwwAddress = wwwAddress;
@@ -35,12 +38,10 @@ public class Attraction implements Serializable {
         mLongitude = longitude;
     }
 
-
-
-
+    //Constructor without phoneNumber
 
     public Attraction(String title, String shortText, String address,
-                      String wwwAddress, double latitude, double  longitude,
+                      String wwwAddress, double latitude, double longitude,
                       int[] imageResourceId) {
         mTitle = title;
         mShortText = shortText;
@@ -48,14 +49,16 @@ public class Attraction implements Serializable {
         mwwwAddress = wwwAddress;
         mLatitude = latitude;
         mLongitude = longitude;
-        imagesResources=new int[imageResourceId.length];
-        for (int i=0; i<imagesResources.length;i++) {
-            imagesResources[i]=imageResourceId[i];
-        };
+        imagesResources = new int[imageResourceId.length];
+        for (int i = 0; i < imagesResources.length; i++) {
+            imagesResources[i] = imageResourceId[i];
+        }
     }
 
+    //Constructor with phoneNumber, price and open hours
+
     public Attraction(String title, String shortText, String phoneNumber, String address,
-                      String wwwAddress, String hours, String price, double latitude, double  longitude, int[] imageResourceId) {
+                      String wwwAddress, String hours, String price, double latitude, double longitude, int[] imageResourceId) {
         mTitle = title;
         mShortText = shortText;
         mPhoneNumber = phoneNumber;
@@ -65,17 +68,17 @@ public class Attraction implements Serializable {
         mPrice = price;
         mLatitude = latitude;
         mLongitude = longitude;
-        imagesResources=new int[imageResourceId.length];
-        for (int i=0; i<imagesResources.length;i++) {
-            imagesResources[i]=imageResourceId[i];
-        };
+        imagesResources = new int[imageResourceId.length];
+        for (int i = 0; i < imagesResources.length; i++) {
+            imagesResources[i] = imageResourceId[i];
+        }
+        ;
     }
 
 
     public String getTitle() {
         return mTitle;
     }
-
 
     public String getShortText() {
         return mShortText;
@@ -89,8 +92,6 @@ public class Attraction implements Serializable {
 
                 '}';
     }
-
-
 
     public int[] getImagesResources() {
         return imagesResources;
@@ -124,8 +125,8 @@ public class Attraction implements Serializable {
         return mLatitude;
     }
 
-        public double getLongitude() {
-            return mLongitude;
-        }
+    public double getLongitude() {
+        return mLongitude;
+    }
 
 }

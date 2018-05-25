@@ -13,16 +13,15 @@ import android.view.ViewGroup;
 
 
 public class MainFragment extends Fragment {
-     ViewPager viewPager;
+    ViewPager viewPager;
     CategoryAdapter adapter;
     TabLayout tabLayout;
-    View rootView=null;
-
+    View rootView = null;
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        if (rootView==null) {
+        if (rootView == null) {
             rootView = inflater.inflate(R.layout.fragment_main, container, false);
             // Find the view pager that will allow the user to swipe between fragments
             viewPager = (ViewPager) rootView.findViewById(R.id.viewpager);
@@ -37,14 +36,12 @@ public class MainFragment extends Fragment {
             tabLayout = (TabLayout) rootView.findViewById(R.id.sliding_tabs);
             tabLayout.setupWithViewPager(viewPager);
         } else {
-            if (rootView.getParent()!=null) {
+            if (rootView.getParent() != null) {
                 ((ViewGroup) rootView.getParent()).removeView(rootView);
             }
         }
         return rootView;
     }
-
-
 
 
 }

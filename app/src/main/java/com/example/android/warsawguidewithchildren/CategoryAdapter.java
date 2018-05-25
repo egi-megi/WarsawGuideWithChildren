@@ -9,17 +9,19 @@ import android.support.v4.app.FragmentPagerAdapter;
  * Created by egi-megi on 07.05.18.
  */
 
-public class CategoryAdapter  extends FragmentPagerAdapter {
+public class CategoryAdapter extends FragmentPagerAdapter {
 
-    /** Context of the app */
+    /**
+     * Context of the app
+     */
     private Context mContext;
 
     /**
      * Create a new {@link CategoryAdapter} object.
      *
      * @param context is the context of the app
-     * @param fm is the fragment manager that will keep each fragment's state in the adapter
-     *           across swipes.
+     * @param fm      is the fragment manager that will keep each fragment's state in the adapter
+     *                across swipes.
      */
 
     public CategoryAdapter(Context context, FragmentManager fm) {
@@ -27,13 +29,14 @@ public class CategoryAdapter  extends FragmentPagerAdapter {
         mContext = context;
     }
 
+    //Setting the order of the tabs
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
             return new PlaygroundsFragment();
-        } else if (position == 1){
+        } else if (position == 1) {
             return new ParksFragment();
-        } else if (position == 2){
+        } else if (position == 2) {
             return new SightseeingFragment();
         } else {
             return new RestaurantsFragment();
@@ -45,6 +48,7 @@ public class CategoryAdapter  extends FragmentPagerAdapter {
         return 4;
     }
 
+    //Setting manes of the tabs
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {

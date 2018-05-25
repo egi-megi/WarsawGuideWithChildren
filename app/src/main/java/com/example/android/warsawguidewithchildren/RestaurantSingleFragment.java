@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,27 +23,29 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 
 public class RestaurantSingleFragment extends SingleFragment {
+    //Change in Single Fragment the value of  variables layout and mColorResourceId
     {
-        layout=R.layout.fragment_restaurant_single;
+        layout = R.layout.fragment_restaurant_single;
+        mColorResourceId = R.color.attraction_restaurants;
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView=super.onCreateView(inflater, container, savedInstanceState);
-         if(attraction!=null) {
-             TextView phoneTextView = (TextView) rootView.findViewById(R.id.phone);
-             // Get the version number from the current Song object and
-             // set this text on the number TextView
-                 phoneTextView.setText(attraction.getPhoneNumber());
-                 phoneTextView.setOnClickListener(new View.OnClickListener() {
-                     @Override
-                     public void onClick(View v) {
-                         Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", (attraction.getPhoneNumber()), null));
-                         startActivity(intent);
-                     }
-                 });
+        View rootView = super.onCreateView(inflater, container, savedInstanceState);
+        if (attraction != null) {
+            //Get phoneNumber in SingleFragment for restaurant and
+            // set this text on the phone TextView and make the phone number clickable
+            TextView phoneTextView = (TextView) rootView.findViewById(R.id.phone);
+            phoneTextView.setText(attraction.getPhoneNumber());
+            phoneTextView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", (attraction.getPhoneNumber()), null));
+                    startActivity(intent);
+                }
+            });
 
-         }
+        }
 
         return rootView;
     }

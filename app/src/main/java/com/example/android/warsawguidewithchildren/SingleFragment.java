@@ -34,7 +34,7 @@ public class SingleFragment extends Fragment implements OnMapReadyCallback, Goog
 
     Attraction attraction;
 
- //   private int mColorResourceId;
+    protected int mColorResourceId;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -46,23 +46,22 @@ public class SingleFragment extends Fragment implements OnMapReadyCallback, Goog
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(layout, container, false);
- //       mColorResourceId = colorResourceId;
 
         if (attraction != null) {
-            // Find the TextView in the single_song_item.xml layout with the ID version_name
+            // Find the TextView in the fragment_single layout with the ID version_name
             TextView titleNameTextView = (TextView) rootView.findViewById(R.id.name);
-            // Get the version name from the current Song object and
+            // Get the version name from the current Attraction object and
             // set this text on the name TextView
             titleNameTextView.setText(attraction.getTitle());
 
-            // Find the TextView in the single_song_item.xml layout with the ID version_number
+            // Find the TextView in the fragment_single layout with the ID version_number
             TextView descriptionTextView = (TextView) rootView.findViewById(R.id.description);
-            // Get the version number from the current Song object and
+            // Get the version number from the current Attraction object and
             // set this text on the number TextView
             descriptionTextView.setText(attraction.getShortText());
 
-
-            LinearLayout hsv = (LinearLayout) rootView.findViewById(R.id.img_view);
+            //Make gallery of images
+            LinearLayout imagesGallery = (LinearLayout) rootView.findViewById(R.id.img_view);
             for (int imgId : attraction.getImagesResources()) {
                 ImageView iv = new ImageView(inflater.getContext());
                 iv.setImageResource(imgId);
@@ -72,52 +71,41 @@ public class SingleFragment extends Fragment implements OnMapReadyCallback, Goog
                                 ViewGroup.LayoutParams.WRAP_CONTENT,
                                 // or ViewGroup.LayoutParams.WRAP_CONTENT,
                                 ViewGroup.LayoutParams.MATCH_PARENT));
-                hsv.addView(iv);
+                imagesGallery.addView(iv);
             }
-            // Find the TextView in the single_song_item.xml layout with the ID version_number
 
 
-            // Find the TextView in the single_song_item.xml layout with the ID version_number
+            // Find the TextView in the fragment_single layout with the ID address
             TextView addressTextView = (TextView) rootView.findViewById(R.id.address);
-            // Get the version number from the current Song object and
+            // Get the address from the current Attraction object and
             // set this text on the number TextView
             addressTextView.setText(attraction.getAddress());
 
-            // Find the TextView in the single_song_item.xml layout with the ID version_number
+            // Find the TextView in the fragment_single layout with the ID of website
             TextView wwwAddressTextView = (TextView) rootView.findViewById(R.id.wwwAddress);
-            // Get the version number from the current Song object and
-            // set this text on the number TextView
+            // Get the website from the current Attraction object and
+            // set this text on the wwwAddress TextView
             wwwAddressTextView.setText(attraction.getwwwAddress());
 
-            // Find the ImageView in the single_song_item.xml layout with the ID version_number
-         /*   ImageView mapImageView = (ImageView) rootView.findViewById(R.id.map_image_view_restaurant);
-            // Get the version number from the current AndroidFlavor object and
-            // set this image on the number ImageView
-            mapImageView.setImageResource(attraction.getImageResourceId());
-            mapImageView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent mapIntent = new Intent(getActivity().getApplication(), MapsActivity.class);
-                    startActivity(mapIntent);
-                }
-            });*/
+            // Set the theme color for the single fragments' background
+            View textContainer = (View) rootView.findViewById(R.id.fragment_single);
+            // Find the color that the resource ID maps to
+            int color = ContextCompat.getColor(getContext(), mColorResourceId);
+            // Set the background color of the text container View
+            textContainer.setBackgroundColor(color);
 
+            //Set the map with localization of attraction
             SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager()
                     .findFragmentById(R.id.map);
             mapFragment.getMapAsync(this);
 
-//            // Set the theme color for the list item
-//            View textContainer = rootView.findViewById(R.id.fragment_single);
-//            // Find the color that the resource ID maps to
-//            int color = ContextCompat.getColor(getContext(), mColorResourceId);
-//            // Set the background color of the text container View
-//            textContainer.setBackgroundColor(color);
 
         }
         return rootView;
 
     }
 
+    //Set the localization of attraction and place there a marker
     @Override
     public void onMapReady(GoogleMap googleMap) {
         if (attraction != null) {
@@ -131,6 +119,7 @@ public class SingleFragment extends Fragment implements OnMapReadyCallback, Goog
 
     }
 
+    //Set text which id display when someone click on localization marker placed on map
     @Override
     public void onInfoWindowClick(Marker marker) {
         Toast.makeText(getActivity(), marker.getTitle(),
