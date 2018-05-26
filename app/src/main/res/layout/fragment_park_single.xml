@@ -32,18 +32,12 @@
 
         <TextView
             android:id="@+id/name"
-            style="@style/name_single_fragment"
+            style="@style/NameSingleFragment"
             tools:text="@string/name" />
 
         <TextView
             android:id="@+id/description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/margin_main_smaller"
-            android:paddingLeft="@dimen/margin_main"
-            android:paddingRight="@dimen/margin_main"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/text_size_text_attraction_single_fragment"
+            style="@style/DescriptionSingleFragment"
             tools:text="@string/description" />
 
         <!--Display of map        -->
@@ -68,12 +62,7 @@
 
             <TextView
                 android:id="@+id/address"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/margin_main"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/text_size_title_attraction"
-                android:textStyle="bold"
+                style="@style/AddressSingleFragment"
                 tools:text="@string/address" />
         </LinearLayout>
 
@@ -91,13 +80,7 @@
 
             <TextView
                 android:id="@+id/wwwAddress"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:autoLink="web"
-                android:paddingLeft="@dimen/margin_main"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/text_size_title_attraction"
-                android:textStyle="bold"
+                style="@style/wwwAddressSingleFragment"
                 tools:text="@string/wwwAddress" />
         </LinearLayout>
 

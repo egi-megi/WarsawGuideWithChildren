@@ -8,15 +8,47 @@
     </style>
 
     <!-- Stale for name of attraction in Single Fragment -->
-    <style name="name_single_fragment">
-        <item name="layout_width">wrap_content</item>
-        <item name="layout_height">wrap_content</item>
-        <item name="paddingBottom">@dimen/margin_main_smaller</item>
-        <item name="paddingLeft">@dimen/margin_main</item>
-        <item name="paddingTop">@dimen/margin_main</item>
-        <item name="textColor">@android:color/white</item>
-        <item name="textSize">@dimen/text_size_title_attraction_single_fragment</item>
-        <item name="textStyle">bold</item>
+    <style name="NameSingleFragment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/margin_main_smaller</item>
+        <item name="android:paddingLeft">@dimen/margin_main</item>
+        <item name="android:paddingTop">@dimen/margin_main</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_title_attraction_single_fragment</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Stale for description of attraction in Single Fragment -->
+    <style name="DescriptionSingleFragment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/margin_main_smaller</item>
+        <item name="android:paddingLeft">@dimen/margin_main</item>
+        <item name="android:paddingRight">@dimen/margin_main</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_text_attraction_single_fragment</item>
+    </style>
+
+    <!-- Stale for address of attraction in Single Fragment -->
+    <style name="AddressSingleFragment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/margin_main</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_title_attraction</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Stale for www address of attraction in Single Fragment -->
+    <style name="wwwAddressSingleFragment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:autoLink">web</item>
+        <item name="android:paddingLeft">@dimen/margin_main</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_title_attraction</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>

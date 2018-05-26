@@ -32,25 +32,12 @@
 
         <TextView
             android:id="@+id/name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/margin_main_smaller"
-            android:paddingLeft="@dimen/margin_main"
-            android:paddingTop="@dimen/margin_main"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/text_size_title_attraction_single_fragment"
-            android:textStyle="bold"
+            style="@style/NameSingleFragment"
             tools:text="@string/name" />
 
         <TextView
             android:id="@+id/description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/margin_main_smaller"
-            android:paddingLeft="@dimen/margin_main"
-            android:paddingRight="@dimen/margin_main"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/text_size_text_attraction_single_fragment"
+            style="@style/DescriptionSingleFragment"
             tools:text="@string/description" />
 
         <LinearLayout xmlns:tools="http://schemas.android.com/tools"
@@ -104,12 +91,7 @@
 
             <TextView
                 android:id="@+id/phone"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/margin_main"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/text_size_title_attraction"
-                android:textStyle="bold"
+                style="@style/AddressSingleFragment"
                 tools:text="@string/phone" />
 
         </LinearLayout>
@@ -128,12 +110,7 @@
 
             <TextView
                 android:id="@+id/address"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/margin_main"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/text_size_title_attraction"
-                android:textStyle="bold"
+                style="@style/wwwAddressSingleFragment"
                 tools:text="@string/address" />
         </LinearLayout>
 
